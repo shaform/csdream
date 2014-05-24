@@ -1,11 +1,13 @@
 # Summary
 
+* [開始](start/README.md)
+    * [在網路上搜尋資源](start/search.md)
+    * [在社群中認識同好](start/community.md)
 * 資源
     * [如何取得教科書](resource/textbook.md)
     * [資工系開放式課程資源](resource/ocw.md)
-    * [大學裡的實用搜尋技巧](resource/search.md)
     * [交大資工相關獎學金、競賽、工讀與實習機會](resource/nctu-opportunities.md)
-* 程式設計
+* [程式設計](prog/README.md)
     * [Timus Online Judge 教學](prog/timus-oj.md)
 * 課程
     * [基礎程式設計](courses/nctu-bpc.md)
@@ -18,3 +20,4 @@
     * [微處理機系統實驗](courses/micro.md)
     * [程式語言](courses/prog-lang.md)
     * [資訊工程專題](courses/cs-project.md)
+* 前方的道路

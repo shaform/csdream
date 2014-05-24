@@ -56,7 +56,7 @@ Run-error 的原因有很多種。像是除以0、存取不正確的記憶體位
 它編譯器的檢查比較嚴格，所以有時會出現一些 warning，例如，如果你寫了：
 
 ```cpp
-scanf(&quot;%d %d&quot;, &amp;digit1, &amp;digit2);
+scanf("%d %d", &digit1, &digit2);
 ```
 
 就會出現：
