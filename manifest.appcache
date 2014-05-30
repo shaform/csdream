@@ -1,15 +1,13 @@
 CACHE MANIFEST
-# Revision 1401372518772
+# Revision 1401458229146
 
 CACHE:
-topics/problem-solving.html
-courses/asm.html
 index.html
+courses/asm.html
 courses/cs-project.html
-courses/discrete-math.html
 courses/dlab.html
+courses/discrete-math.html
 courses/fl.html
-courses/intro-to-crypto.html
 courses/intro-to-cs-and-prog.html
 courses/micro.html
 courses/prog-lang.html
@@ -21,6 +19,8 @@ start/README.html
 start/books.html
 start/friends.html
 start/search.html
+topics/problem-solving.html
+courses/intro-to-crypto.html
 gitbook/app.js
 gitbook/fonts/anonymouspro/400.woff
 gitbook/fonts/anonymouspro/400i.woff
@@ -57,8 +57,8 @@ gitbook/jsrepl/sandbox.html
 gitbook/jsrepl/sandbox.js
 gitbook/print.css
 gitbook/style.css
-gitbook/plugins/gitbook-plugin-mathjax/plugin.js
 gitbook/plugins/gitbook-plugin-mixpanel/plugin.js
+gitbook/plugins/gitbook-plugin-mathjax/plugin.js
 
 NETWORK:
 *
