@@ -1,16 +1,9 @@
 CACHE MANIFEST
-# Revision 1401458229146
+# Revision 1403863055097
 
 CACHE:
+whatnow/software-engineer.html
 index.html
-courses/asm.html
-courses/cs-project.html
-courses/dlab.html
-courses/discrete-math.html
-courses/fl.html
-courses/intro-to-cs-and-prog.html
-courses/micro.html
-courses/prog-lang.html
 prog/README.html
 prog/timus-oj.html
 resource/nctu-opportunities.html
@@ -20,14 +13,16 @@ start/books.html
 start/friends.html
 start/search.html
 topics/problem-solving.html
+courses/asm.html
+courses/cs-project.html
+courses/discrete-math.html
+courses/dlab.html
+courses/fl.html
+courses/intro-to-cs-and-prog.html
 courses/intro-to-crypto.html
+courses/micro.html
+courses/prog-lang.html
 gitbook/app.js
-gitbook/fonts/anonymouspro/400.woff
-gitbook/fonts/anonymouspro/400i.woff
-gitbook/fonts/anonymouspro/700.woff
-gitbook/fonts/anonymouspro/700i.woff
-gitbook/fonts/ebgaramond/400.woff
-gitbook/fonts/ebgaramond/400i.woff
 gitbook/fonts/fontawesome/FontAwesome.otf
 gitbook/fonts/fontawesome/fontawesome-webfont.eot
 gitbook/fonts/fontawesome/fontawesome-webfont.svg
@@ -57,7 +52,6 @@ gitbook/jsrepl/sandbox.html
 gitbook/jsrepl/sandbox.js
 gitbook/print.css
 gitbook/style.css
-gitbook/plugins/gitbook-plugin-mixpanel/plugin.js
 gitbook/plugins/gitbook-plugin-mathjax/plugin.js
 
 NETWORK:
