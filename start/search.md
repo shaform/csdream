@@ -10,7 +10,7 @@
 
     萬用搜尋引擎，若想搜尋英文資料，使用英文版 Google 通常能得到較好的結果。尤其程式語言的資訊在網路上多以英文居多，Google 為必備網站之一。
 
-*   [Google 中文](http://www.google.com.tw)
+*   [Google 中文](https://www.google.com.tw/?hl=zh_TW)
 
     中文版 Google，搜尋中文資料時可以使用。
 

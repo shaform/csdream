@@ -27,7 +27,7 @@
     * 參與公益行動
     * 參與開放原始碼專案
     * 創業
-    * 當個軟體工程師
+    * [當個軟體工程師](whatnow/software-engineer.md)
     * 讀資工系
 * 附錄：資源
     * [資工系開放式課程資源](resource/ocw.md)

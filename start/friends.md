@@ -1,6 +1,6 @@
 # 認識同好
 
-如果你是學生的話，可以參加校園裡的資訊社團，或者和同學一起組成讀書會。但除此之外，想認識其他同好，也可以參加社群活動，除了網路上的討論區外，也有許多實體聚會。首先可以到一些活動網站上尋找相關訊息：
+[活躍的技術社群](http://www.sanfranology.com/techmeetups/)是大家交流點子與認識同好的好地方。除了網路上有許多虛擬社群交流知識外，也有許多實體聚會。如果你是學生的話，還可以參加校園裡的資訊社團，甚至和同學一起組成讀書會。想加入這些聚會，可以到一些活動網站上尋找相關訊息：
 
 *   [活動通](http://www.accupass.com)
 *   [Meetup](http://www.meetup.com)
@@ -9,11 +9,11 @@
 
 或者也可以用不同的關鍵字搜尋：
 
-*   [台灣 軟體社群](https://www.google.com/search?q=%E5%8F%B0%E7%81%A3+%E8%BB%9F%E9%AB%94%E7%A4%BE%E7%BE%A4)
-*   [台灣 程式社群](https://www.google.com/search?q=%E5%8F%B0%E7%81%A3+%E7%A8%8B%E5%BC%8F%E7%A4%BE%E7%BE%A4)
-*   [Python 讀書會](https://www.google.com/search?q=Python+%E8%AE%80%E6%9B%B8%E6%9C%83)
-*   [台南 Python](https://www.google.com/search?q=%E5%8F%B0%E5%8D%97+Python)
-*   [Rails 工作坊](https://www.google.com/search?q=Rails+%E5%B7%A5%E4%BD%9C%E5%9D%8A)
+*   「 [台灣 軟體社群](https://www.google.com/search?q=%E5%8F%B0%E7%81%A3+%E8%BB%9F%E9%AB%94%E7%A4%BE%E7%BE%A4)」
+*   「 [台灣 程式社群](https://www.google.com/search?q=%E5%8F%B0%E7%81%A3+%E7%A8%8B%E5%BC%8F%E7%A4%BE%E7%BE%A4)」
+*   「 [Python 讀書會](https://www.google.com/search?q=Python+%E8%AE%80%E6%9B%B8%E6%9C%83)」
+*   「 [台南 Python](https://www.google.com/search?q=%E5%8F%B0%E5%8D%97+Python)」
+*   「 [Rails 工作坊](https://www.google.com/search?q=Rails+%E5%B7%A5%E4%BD%9C%E5%9D%8A)」
 
 
 以下蒐集一些依地區分類的「實體」聚會/研討會/工作坊/社群：
