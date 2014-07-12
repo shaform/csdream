@@ -1,5 +1,10 @@
 # 當個軟體工程師
 
+## 實習
+
+*   [〈從台灣申請北美軟體工程實習 – 準備篇〉](http://shaform.wordpress.com/2014/01/26/applying-for-us-internships-from-taiwan-preparation/)
+*   [〈從台灣申請北美軟體工程實習 – 面試篇〉](http://shaform.wordpress.com/2014/03/28/applying-for-us-internships-from-taiwan-interview/)
+*   [〈從台灣申請北美軟體工程實習 – 出發篇〉](http://shaform.wordpress.com/2014/07/08/applying-for-us-internships-from-taiwan-start/)
 
 以下蒐集一些依地區分類的工作機會：
 

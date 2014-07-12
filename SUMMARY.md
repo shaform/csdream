@@ -5,7 +5,7 @@
     * [認識同好](start/friends.md)
     * [取得書籍](start/books.md)
     * 使用工具
-    * 學習英文
+    * [學習英文](start/english.md)
 * [學習程式語言](prog/README.md)
     * Python
     * JavaScript
