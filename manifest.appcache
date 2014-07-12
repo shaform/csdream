@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Revision 1403863055097
+# Revision 1405190472872
 
 CACHE:
 whatnow/software-engineer.html
@@ -10,6 +10,7 @@ resource/nctu-opportunities.html
 resource/ocw.html
 start/README.html
 start/books.html
+start/english.html
 start/friends.html
 start/search.html
 topics/problem-solving.html
@@ -18,8 +19,8 @@ courses/cs-project.html
 courses/discrete-math.html
 courses/dlab.html
 courses/fl.html
-courses/intro-to-cs-and-prog.html
 courses/intro-to-crypto.html
+courses/intro-to-cs-and-prog.html
 courses/micro.html
 courses/prog-lang.html
 gitbook/app.js
