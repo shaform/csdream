@@ -1,9 +1,9 @@
 CACHE MANIFEST
-# Revision 1405190472872
+# Revision 1405265360415
 
 CACHE:
-whatnow/software-engineer.html
 index.html
+whatnow/software-engineer.html
 prog/README.html
 prog/timus-oj.html
 resource/nctu-opportunities.html
@@ -19,10 +19,10 @@ courses/cs-project.html
 courses/discrete-math.html
 courses/dlab.html
 courses/fl.html
-courses/intro-to-crypto.html
 courses/intro-to-cs-and-prog.html
 courses/micro.html
 courses/prog-lang.html
+courses/intro-to-crypto.html
 gitbook/app.js
 gitbook/fonts/fontawesome/FontAwesome.otf
 gitbook/fonts/fontawesome/fontawesome-webfont.eot
@@ -53,6 +53,7 @@ gitbook/jsrepl/sandbox.html
 gitbook/jsrepl/sandbox.js
 gitbook/print.css
 gitbook/style.css
+gitbook/plugins/gitbook-plugin-ga/plugin.js
 gitbook/plugins/gitbook-plugin-mathjax/plugin.js
 
 NETWORK:
