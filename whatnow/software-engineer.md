@@ -19,6 +19,7 @@
 
 ## 日本
 
+*   [Looking For A Developer Job In Japan?](http://www.tokyodev.com/jobs/)
 *   [Toshiba日本東芝面試經驗](http://blackj0311.blogspot.tw/2007/06/toshiba.html)
 
 ## 澳洲
