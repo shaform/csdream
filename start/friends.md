@@ -78,11 +78,9 @@
 
 ## 研討會
 
-*   [OSDC](http://osdc.tw)
 *   [PyCon](https://tw.pycon.org)
 *   [COSCUP](http://coscup.org)
 *   [JSDC](http://jsdc.tw)
-*   [HoneyCon](event.honeynet.org.tw)
 *   [HITCON](http://hitcon.org)
 *   [RubyConf Taiwan](http://rubyconf.tw)
 *   [PHPConf Taiwan](http://phpconf.tw)
