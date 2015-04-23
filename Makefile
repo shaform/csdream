@@ -1,6 +1,6 @@
 publish:
 	rm -rf ./_html
-	gitbook build . --output=./_html
+	gitbook build . ./_html
 	rm -f ./_html/.bookignore
 
 gh-pages: publish
