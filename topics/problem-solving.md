@@ -1,4 +1,4 @@
-# 基礎程式設計
+# 程式解題
 
 ## 前言
 
@@ -132,3 +132,8 @@ int main()
 *   [[ACM] 自己整理一些有用的網站](http://chchwy.blogspot.com/2008/09/acm_30.html)
 *   C/C++常用函式參考：[C++ Reference](http://www.cppreference.com)
 *   一些題目如果實在解不出來可以按 Wiki 頁面，有解法參考。
+
+## 面試類線上題庫
+
+*   [LeetCode](https://leetcode.com/)
+*   [HackerRank](hackerrank.com/)
