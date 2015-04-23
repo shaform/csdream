@@ -11,6 +11,8 @@
 ## 台灣
 
 *   [Inside Job Board](http://jobs.inside.com.tw/)
+*   [Soft Job](https://www.ptt.cc/bbs/Soft_Job/index.html)
+*   [66K 工作網](http://www.66kjobs.tw/)
 
 ## 美國
 
