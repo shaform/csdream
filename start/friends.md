@@ -27,6 +27,7 @@
 *   Python
     *   [Taipei.py](http://www.meetup.com/Taipei-py)
     *   [PyLadies @ Taiwan](http://tw.pyladies.com)
+    *   [Django Girls](http://djangogirls.org/taipei/)
 *   Ruby on Rails
     *   [Rails Girls](http://railsgirls.com/taipei)
     *   [Taipei Rails Meetup](http://www.meetup.com/taipei-rails-meetup)
@@ -85,3 +86,4 @@
 *   [RubyConf Taiwan](http://rubyconf.tw)
 *   [PHPConf Taiwan](http://phpconf.tw)
 *   [台灣資料科學愛好者年會](http://twconf.data-sci.org)
+*   [SITCON 學生計算機年會](http://sitcon.org)
