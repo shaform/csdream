@@ -97,7 +97,7 @@ using namespace std;
 int main()
 {
         int d;
-        vector<unsigned long long> sz; 
+        vector<unsigned long long> sz;
         sz.push_back(1);
         scanf("%d", &d);
         for (int c=1; c<=d; ++c) {
@@ -132,6 +132,13 @@ int main()
 *   [[ACM] 自己整理一些有用的網站](http://chchwy.blogspot.com/2008/09/acm_30.html)
 *   C/C++常用函式參考：[C++ Reference](http://www.cppreference.com)
 *   一些題目如果實在解不出來可以按 Wiki 頁面，有解法參考。
+
+## 遊戲式的線上競賽
+
+簡單來說就是兩個人連線後，系統會出題，通常不會太複雜，比看誰先解出來。兩個網站都支援許多語言，可以選自己擅長的來比賽。
+
+* [CodeFights](https://codefights.com)
+* [CodinGame](https://www.codingame.com/games)
 
 ## 面試類線上題庫
 
