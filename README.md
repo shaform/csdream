@@ -20,8 +20,12 @@
 
 *   [Git & GitHub 教學](http://ncu-csie-snmg.github.io/2013-NCU-CSIE-Website-Design-Competition/git.html)
 *   [Markdown 語法說明](http://markdown.tw)
-*   [GitHub Pages Import](https://github.com/davisp/ghp-import)
 
+安裝完 `npm`, `yarn` 等 packages 之後，可在 `website` 目錄執行以下指令，測試網站成效：
+
+  ```bash
+  yarn run start
+  ```
 
 ## 授權
 
