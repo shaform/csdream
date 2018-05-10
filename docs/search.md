@@ -23,7 +23,7 @@ title: 搜尋資源
 
 *   [Yandex](https://yandex.com/)
 
-    俄國的搜尋引擎。有時因為一些原因，可能使用不同國家的搜尋引擎比較容易找到想要的結果，這時就能事試看。
+    俄國的搜尋引擎。有時因為一些原因，可能使用不同國家的搜尋引擎比較容易找到想要的結果，這時就能試試看。
 
 更多的搜尋引擎列表可參考：[〈List of Search Engines〉](https://en.wikipedia.org/wiki/List_of_search_engines)。
 
@@ -95,7 +95,7 @@ title: 搜尋資源
 *   [sha1 implementation java](https://www.google.com/search?q=sha1+implementation+java)
 *   [sha 1 example](https://www.google.com/search?q=sha+1+example)
 
-另一種方法則是直接在程式碼網站上搜尋，知名的如 [GitHub](https://github.com) ，例如如果你想找 [GAN](https://en.wikipedia.org/wiki/Generative_adversarial_network) 這種模型的實做方式，則可以搜尋：
+另一種方法則是直接在程式碼網站上搜尋，知名的像 [GitHub](https://github.com) ，例如假設你想找 [GAN](https://en.wikipedia.org/wiki/Generative_adversarial_network) 這種模型的實做方式，則可以搜尋：
 
 *   [GAN](https://github.com/search?q=GAN)
 
