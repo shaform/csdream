@@ -3,7 +3,7 @@ id: goal
 title: 尋找目標
 ---
 
-23 歲的 [Erin Parker](http://www.spitfireathlete.com/) 某天突然決定參加 [RailsBridge](http://railsbridge.org) 聚會，主修經濟的她，沒碰過程式，但在聚會中，她學著用 [Ruby on Rails](http://rubyonrails.org) 開發了簡單的小網站。這樣的經驗讓她覺得非常愉快。同時，這也在她心中種下一個種子。
+23 歲的 [Erin Parker](https://www.quora.com/profile/Erin-Parker) 某天突然決定參加 [RailsBridge](http://railsbridge.org) 聚會，主修經濟的她，沒碰過程式，但在聚會中，她學著用 [Ruby on Rails](http://rubyonrails.org) 開發了簡單的小網站。這樣的經驗讓她覺得非常愉快。同時，這也在她心中種下一個種子。
 
 她突然有了個夢想，想做一個網站鼓勵女子如何健身、舉重、如何吃的更健康。雖然腦中的設計愈來愈清晰，可是不懂寫程式的她真的可能做到嗎？最後她決定放手去做了，因為就算失敗，至少曾經嘗試過。她利用網路上所有找得到的資源開始自學 Ruby on Rails，同時參與許多程式聚會，不斷問問題，只為了達成心中想要的目標。
 

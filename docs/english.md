@@ -48,8 +48,6 @@ title: 學習英文
 *   [Oxford Learner's Dictionaries](http://www.oxfordlearnersdictionaries.com/)
 *   [Cambridge Dictionaries Online](http://dictionary.cambridge.org/)
 *   [Dictionary.com](http://dictionary.reference.com/)
-
-
 *   [Google Dictionary](https://chrome.google.com/webstore/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja)
 *   [Android Dictionary](https://play.google.com/store/search?q=dictionary)
 
@@ -90,3 +88,11 @@ title: 學習英文
 ## 開口說英語
 
 雖然口語能力是剛開始學習資訊科技最不重要的能力，一般人可能學了許多年都還用不上。然而，如果你有[到不同國家工作](software-engineer.md)的打算，實用的英語口說就會派上用場了。
+
+## 各類考試
+
+如果未來有考慮[出國留學](cs-degree.md)的話，英文考試也是非得準備不可，此時可以參考各版友的心得分享：
+
+*   [GRE](https://www.ptt.cc/bbs/GRE/index.html)
+*   [TOEFL_iBT](https://www.ptt.cc/bbs/TOEFL_iBT/index.html)
+*   [IELTS](https://www.ptt.cc/bbs/IELTS/index.html)

@@ -17,11 +17,15 @@ title: 搜尋資源
 
     中文版 Google，搜尋中文資料時可以使用。
 
-*   [Bing](http://www.bing.com)
+*   [Bing](https://www.bing.com)
 
     微軟開發的搜尋引擎。
 
-*   [Yahoo! Search](http://search.yahoo.com)
+*   [Yandex](https://yandex.com/)
+
+    俄國的搜尋引擎。有時因為一些原因，可能使用不同國家的搜尋引擎比較容易找到想要的結果，這時就能事試看。
+
+更多的搜尋引擎列表可參考：[〈List of Search Engines〉](https://en.wikipedia.org/wiki/List_of_search_engines)。
 
 搜尋引擎的最基本原理，是使用輸入的「關鍵字」和文件中的文字配對，以找出最相關的結果。所以，通常如果要找出一個問題的答案，應該要輸入答案文件中可能出現的字，而不是問題本身。例如，如果你想問的問題是：「要怎麼學程式設計？」，那麼你可能要用兩個關鍵字來搜尋：「[程式設計 教學](https://www.google.com/search?q=%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88+%E6%95%99%E5%AD%B8)」。如果想問的問題是：「交大校長是誰？」，那可能就得用：「[交大 校長](https://www.google.com/search?q=%E4%BA%A4%E5%A4%A7+%E6%A0%A1%E9%95%B7)」來搜尋。
 
@@ -53,12 +57,25 @@ title: 搜尋資源
 *   「[新手 python](https://www.google.com/search?q=%E6%96%B0%E6%89%8B+python)」
 *   「[python 書](https://www.google.com/search?q=python+%E6%9B%B8)」
 *   「[python 教材](https://www.google.com/search?q=python+%E6%95%99%E6%9D%90)」
+*   「[python hello world](https://www.google.com/search?q=python+hello+world)」
+
+又例如你想學習 [Deep Learning](https://en.wikipedia.org/wiki/Deep_learning)，的話，也可試試以下關鍵字：
+
+*   「[deep learning course](https://www.google.com/search?q=deep+learning+course)」
+*   「[deep learning awesome list](https://www.google.com/search?q=deep+learning+awesome+list)」
+*   「[deep learning introduction](https://www.google.com/search?q=deep+learning+introduction)」
+*   「[deep learning wiki](https://www.google.com/search?q=deep+learning+wiki)」
+*   「[deep learning GitHub](https://www.google.com/search?q=deep+learning+GitHub)」
+
+
+其他例子可見網友的討論串：[〈快速入門 XXX 領域〉](https://www.facebook.com/tw.yang.30/posts/1999506216966366)。
+
 
 ### 搜尋問題解法
 
 有時在編譯或執行程式時會發生錯誤，此時你多半會得到錯誤訊息，透過這錯誤訊息，我們往往可以在網路上找到他的成因以及解法。但在做這種搜尋時，最重要的就是關鍵字的選法了。透過輸入重要的關鍵字，能過濾出真正想要的資訊。例如以下是編譯 C++ 程式時可能會遇到的錯誤訊息，其中 `source.cpp:10` 是檔名和行數，不太可能跟其他人相同：
 
-> source.cpp:10: warning: ignoring return value of 'int scanf(const char*, ...)',
+> source.cpp:10: warning: ignoring return value of 'int scanf(const char\*, ...)',
 > declared with attribute warn_unused_result
 > ignoring return value of scanf
 
@@ -78,7 +95,31 @@ title: 搜尋資源
 *   [sha1 implementation java](https://www.google.com/search?q=sha1+implementation+java)
 *   [sha 1 example](https://www.google.com/search?q=sha+1+example)
 
-另一種方法則是直接在程式碼網站上搜尋，知名的如 [Google Code](http://code.google.com)、[GitHub](https://github.com) 等等。
+另一種方法則是直接在程式碼網站上搜尋，知名的如 [GitHub](https://github.com) ，例如如果你想找 [GAN](https://en.wikipedia.org/wiki/Generative_adversarial_network) 這種模型的實做方式，則可以搜尋：
+
+*   [GAN](https://github.com/search?q=GAN)
+
+### 搜尋個人性質的討論與文檔
+
+之前的例子多半是搜尋原本就是放在人流較多的網路上分享給大家的文章，然而有些比較個人性質的文章，就會藏在一些特定的網站上，此時就要用更精細的定位來搜尋了。比如說，如果你想搜尋有沒有人跟你一樣有該不該讀資工系的煩惱，或者該選那家公司就業。雖然直接搜尋也可以，但如果已知 PTT 之類的網站常有人發問，那麼就可針對這些特殊網站搜尋：
+
+*   [該讀資工系嗎 site:ptt.cc](https://www.google.com/search?q=該讀資工系嗎+site:ptt.cc)
+*   [面試 site:ptt.cc/bbs/Soft_Job](https://www.google.com/search?q=面試+site:ptt.cc/bbs/Soft_Job)
+*   [should computer science site:forum.thegradcafe.com](https://www.google.com/search?q=should+computer+science+site:forum.thegradcafe.com)
+
+又比如說，你想撰寫履歷、推薦信、求學動機等等的文件。這些個人文件其實不少人自願放在網路上可以參考，然而這些文件四散各地，直接搜尋很難找的齊全。此時最先可以試試 GitHub：
+
+*   [resume software engineer](https://github.com/search?q=resume+software+engineer)
+*   [CV](https://github.com/search?q=CV)
+*   [statement of purpose](https://github.com/search?q=statement+of+purpose)
+
+
+除此之外，也不少學生、教授會自主把這種文件放在自己的個人網頁上，此時特別針對一些學校的個人網頁空間搜尋，往往能達到意料之外的效果：
+
+*   [statement of purpose site:cs.cmu.edu filetype:pdf](https://www.google.com/search?q=statement+of+purpose+site:cs.cmu.edu+filetype:pdf)
+*   [resume site:cs.cmu.edu filetype:pdf](https://www.google.com/search?q=resume+site:cs.cmu.edu+filetype:pdf)
+
+除了國外的學校以外，國內的學校也可試試。
 
 ### 資工系：搜尋習題解答
 
