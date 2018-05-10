@@ -16,7 +16,7 @@
 
 ## 參與
 
-《資夢》採用 [gitbook](http://www.gitbook.io) 發佈。歡迎大家開立 issue 提供建議，也可以送 pull requests 來增加新內容。以下是可能有幫助的資源：
+《資夢》採用 [Docusaurus](https://docusaurus.io/) 發佈。歡迎大家開立 issue 提供建議，也可以送 pull requests 來增加新內容。以下是可能有幫助的資源：
 
 *   [Git & GitHub 教學](http://ncu-csie-snmg.github.io/2013-NCU-CSIE-Website-Design-Competition/git.html)
 *   [Markdown 語法說明](http://markdown.tw)
