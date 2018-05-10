@@ -35,11 +35,11 @@
 
 資訊科技可以實現一個更[開放、透明、鼓勵參與的政府](https://github.com/oreillymedia/open_government)，[Code for America](http://codeforamerica.org) 號召公民撰寫程式改進政府效能，創始人 [Jennifer Pahlka](http://www.codeforamerica.org/blog/author/jen) 在 TED 上告訴我們，[可以用程式打造更好的政府](http://tedxtaipei.com/2012/06/jennifer_pahlka_coding_a_better_government)。
 
-在台灣，也有一群默默耕耘的人。[code for tomorrow](http://codefortomorrow.org) 透過數位科技促成社會創新，改善生活。[g0v](http://g0v.tw) 號召寫程式改造社會，致力於打造資訊透明化。眾人的合作產生出許多成果。[國會大代誌](http://ly.g0v.tw)將立法院行程與修法等資料用簡明的方式呈現給人民，[萌典](https://www.moedict.tw)將原本使用不易的教育部字典重新組裝，打造全新的開放字典。2014 年，[開放政治獻金計畫](http://campaign-finance.g0v.lackneets.tw)將從監察院取得的政治獻金資料掃描上傳，號召網友一同辨識圖中文字，24 小時之內，就把 2,637 份文件，共 309,666 格資料，全部辨識完成。
+在台灣，也有一群默默耕耘的人。[code for tomorrow](https://github.com/codefortomorrow) 透過數位科技促成社會創新，改善生活。[g0v](http://g0v.tw) 號召寫程式改造社會，致力於打造資訊透明化。眾人的合作產生出許多成果。[國會大代誌](http://ly.g0v.tw)將立法院行程與修法等資料用簡明的方式呈現給人民，[萌典](https://www.moedict.tw)將原本使用不易的教育部字典重新組裝，打造全新的開放字典。2014 年，[開放政治獻金計畫](https://campaign-finance.g0v.ctiml.tw/)將從監察院取得的政治獻金資料掃描上傳，號召網友一同辨識圖中文字，24 小時之內，就把 2,637 份文件，共 309,666 格資料，全部辨識完成。
 
 ## 改變市場
 
-資訊科技透過掃除原本系統中的障礙，將不同的人在同一個平台連結起來，從而產生全新的市場模式。線上銷售平台讓不同的商品可以接觸更多的人群，而像 LeanPub 之類的[自助出版](http://www.inside.com.tw/2013/12/24/leanpub)平台，讓作者可以跳過複雜的鋪貨、出版社等中間人，直接和讀者接觸。像 KickStarter 一樣的群眾募資，讓有創意的創業者不必依賴投資公司，而是直接跟民眾募集資金。
+資訊科技透過掃除原本系統中的障礙，將不同的人在同一個平台連結起來，從而產生全新的市場模式。線上銷售平台讓不同的商品可以接觸更多的人群，而像 LeanPub 之類的[自助出版](https://www.inside.com.tw/2013/12/24/leanpub)平台，讓作者可以跳過複雜的鋪貨、出版社等中間人，直接和讀者接觸。像 KickStarter 一樣的群眾募資，讓有創意的創業者不必依賴投資公司，而是直接跟民眾募集資金。
 
 ## Hack Everything
 

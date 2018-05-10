@@ -7,7 +7,7 @@
     * 使用工具
     * [學習英文](start/english.md)
 * [學習程式語言](prog/README.md)
-    * Python
+    * [Python](prog/python.md)
     * JavaScript
     * C/C++
     * Ruby
