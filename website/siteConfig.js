@@ -27,6 +27,7 @@ const siteConfig = {
     primaryColor: '#2E8555',
     secondaryColor: '#205C3B',
   },
+  gaTrackingId: 'UA-13132274-5',
   /* custom fonts for website */
   /*fonts: {
     myFont: [
