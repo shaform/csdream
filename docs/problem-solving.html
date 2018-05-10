@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>程式解題 · 資夢</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta property="og:title" content="程式解題 · 資夢"/><meta property="og:type" content="website"/><meta property="og:url" content="https://shaform.com/csdream/index.html"/><meta property="og:description" content="## 前言"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/csdream/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/csdream/css/main.css"/></head><body class="sideNavVisible doc separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/csdream/"><img class="logo" src="/csdream/img/docusaurus.svg" alt="資夢"/><h2 class="headerTitleWithLogo">資夢</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="https://github.com/shaform/csdream" target="_self">Fork us on GitHub!</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>課題</span></h2></div><div class="navGroups"><div class="navGroup navGroupActive"><h3>開始</h3><ul><li class="navListItem"><a class="navItem" href="/csdream/docs/goal.html">尋找目標</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/search.html">搜尋資源</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/friends.html">認識同好</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/books.html">取得書籍</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/english.html">學習英文</a></li></ul></div><div class="navGroup navGroupActive"><h3>學習程式語言</h3><ul><li class="navListItem"><a class="navItem" href="/csdream/docs/python.html">Python</a></li></ul></div><div class="navGroup navGroupActive"><h3>課題</h3><ul><li class="navListItem navListItemActive"><a class="navItem navItemActive" href="/csdream/docs/problem-solving.html">程式解題</a></li></ul></div><div class="navGroup navGroupActive"><h3>前方的道路</h3><ul><li class="navListItem"><a class="navItem" href="/csdream/docs/nonprofit.html">參與公益行動</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/open-source.html">參與開放原始碼專案</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/startup.html">創業</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/software-engineer.html">當個軟體工程師</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/cs-degree.html">讀資工系</a></li></ul></div><div class="navGroup navGroupActive"><h3>附錄：資源</h3><ul><li class="navListItem"><a class="navItem" href="/csdream/docs/ocw.html">資工系開放式課程資源</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/nctu-opportunities.html">交大資工相關獎學金、競賽、工讀與實習機會</a></li></ul></div><div class="navGroup navGroupActive"><h3>附錄：資工課程</h3><ul><li class="navListItem"><a class="navItem" href="/csdream/docs/asm.html">組合語言與系統程式</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/dlab.html">數位電路實驗</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/intro-to-cs-and-prog.html">計算機概論與程式設計</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/discrete-math.html">離散數學</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/fl.html">正規語言概論</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/intro-to-crypto.html">密碼學概論</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/micro.html">微處理機系統實驗</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/prog-lang.html">程式語言</a></li><li class="navListItem"><a class="navItem" href="/csdream/docs/cs-project.html">資訊工程專題</a></li></ul></div></div></section></div><script>
+          var toggler = document.getElementById('navToggler');
+          var nav = document.getElementById('docsNav');
+          toggler.onclick = function() {
+            nav.classList.toggle('docsSliderActive');
+          };
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1>程式解題</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="前言"></a><a href="#前言" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前言</h2>
+<p>基礎程式設計是<a href="http://www.cs.nctu.edu.tw/">交大資工</a>大二的<a href="http://www.cs.nctu.edu.tw/cswebsite/education/undergraduate/course#course_rule">必修課程</a>，說是課程，其實主要是一個程式設計的檢定。題目的形式像是一般高中資訊學科能力競賽或者是 <a href="http://chinese.engadget.com/2009/03/16/interview-acm-contest-team-in-ntu/">ACM ICPC</a> 等等，不過題目比較沒有那麼難。</p>
+<p>如公告所示：</p>
+<ol>
+<li>不修課也可以參加「程式能力鑑定」</li>
+<li>可考過後再選修「基礎程式設計」(上課第一天確認己通過後，即可不再出席)</li>
+<li>「程式能力鑑定」可不限次數參加</li>
+<li>選修「基礎程式設計」，若整個學期都沒考過，則該科成績就不及格</li>
+</ol>
+<p>由此可見，最好的策略是在實際選修之前，就開始去參加<a href="http://gpe.acm-icpc.tw/">「程式能力鑑定」</a>，若通過了，則選「基礎程設」課程時，即可直接視為通過。</p>
+<p>檢定考的題目皆從檢定網站上的<a href="http://gpe.acm-icpc.tw/">題庫</a>而來，學生們隨時都可以到網站上練習，也可以馬上得知自己寫的是否正確。即使不是交大的學生也可以到系統上註冊帳號寫題目。</p>
+<p>從資工系大二開始，有很多課都要寫程式。基礎程設的題目提供了練習寫程式的絕佳機會。有心的話，從高中開始練習也不錯。</p>
+<h2><a class="anchor" aria-hidden="true" id="基礎"></a><a href="#基礎" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>基礎</h2>
+<p>Online Judge 的題目除了需要對使用的語言有一定的嫻熟度外（特別是在處理輸出入時），有時也會用到<a href="http://en.wikipedia.org/wiki/Algorithm">演算法</a>（基礎程設的題目不太會出現一些很難的演算法）。</p>
+<p>目前支援的語言有 <a href="http://en.wikipedia.org/wiki/C_%28programming_language%29">C</a>, <a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a>, <a href="http://en.wikipedia.org/wiki/Java_%28programming_language%29">Java</a> 等等，在交大資工裡，最常碰到的語言是 C 和 C++，但也些課也會要求使用 Java。</p>
+<p>學好一個程式語言的方法無他，便是需要大量的練習。為了掌握語言的細節，最好是能至少完整看完一本介紹的書。如果要自修 C 的話，推薦  <a href="http://www.anobii.com/books/C_Programming/9780393979503/01d43c0f2926ab73e7/">《C Programming: A Modern Approach》</a>，這本書的筆調清晰，十分易讀。</p>
+<p>C++，一般都推 <a href="http://www.anobii.com/books/C_Primer/9780201721485/00d73a0b9b1d04cd44/">《C++ Primer》</a>，也可以跟 <a href="http://www.anobii.com/books/C_Primer_Plus/9780672326974/01b0c574ef4c3cee80/">《C++ Primer Plus》</a> 比較看看。一天看個幾十頁，不到一個學期就能看完。接下來再透過寫題目來磨練自己的技巧，就能不斷進步。</p>
+<p>演算法的部份，如果要看正式的教科書的話，學校用的是 <a href="http://www.anobii.com/books/Introduction_to_Algorithms/9780262033848/01d9ac2cad55a6c282/">《Introduction to Algorithms》</a>。另外,推薦一本比較小本，<a href="http://www.anobii.com/books/Algorithm_Design/9780321372918/014579928ca81253f3/">《Algorithm Design》</a> 感覺挺適合入門。</p>
+<p>當然，實際上直接動手解題也可以。很多深入的演算法其實並不會在題目中見到，有時反而是要一點小聰明。</p>
+<p>網路上也能找到一些程式設計的入門教學，在此枚舉幾項：</p>
+<ul>
+<li><a href="http://openhome.cc/Gossip/CGossip/">C Gossip</a></li>
+<li><a href="http://www.csie.ntnu.edu.tw/~u91029/index.html">演算法筆記</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="程式鑑定網站"></a><a href="#程式鑑定網站" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>程式鑑定網站</h2>
+<p>程式檢定的網址在 <a href="http://gpe.acm-icpc.tw/">http://gpe.acm-icpc.tw/</a> ，若要建立新帳號，只要按下「Apply Here」，然後簡單填一下資料，再收一下確認信即可。</p>
+<p>基礎程式檢定的形式，是透過 Online Judge 解題。關於 Online Judge 的來歷，可參考：<a href="http://www.csie.ntnu.edu.tw/~u91029/oj.html">Online Judge System</a>。</p>
+<p>大致上，每道題目都會有許多輸入，你的程式要將輸入轉換成正確的輸出。輸出入都是採 Standard Input / Output，可以參考 <a href="http://acm.timus.ru/help.aspx?topic=cpp">How to write C/C++ solutions</a>。</p>
+<p>把程式傳上去後，會自動 Judge 並把結果回報給你。每解開一道題目，總會有滿滿的成就感。兩三天解個一題也好，對程式的掌握度必能提升。</p>
+<p>關於各種訊息的意思可參考<a href="http://judge.nccucs.org/UserGuide.jsp">〈程式解題系統使用手冊〉</a>的「錯誤的訊息意義」。</p>
+<p>注意到，輸出一定要完全相符才會 Accept，就算多印/少印一行空白仍視為 Wrong Answer。</p>
+<p>Run-error 的原因有很多種。像是除以0、存取不正確的記憶體位址、遞迴太多層(stack overflow)等等。</p>
+<p>它編譯器的檢查比較嚴格，所以有時會出現一些 warning，例如，如果你寫了：</p>
+<pre><code class="hljs css cpp"><span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d %d"</span>, &amp;digit1, &amp;digit2);
+</code></pre>
+<p>就會出現：</p>
+<blockquote>
+<p>source.cpp:10: warning:
+ignoring return value of 'int scanf(const char*, ...)',
+declared with attribute warn_unused_result</p>
+</blockquote>
+<p>那是因為沒有檢查 scanf 的回傳值，你無法確定是否有成功讀取。這樣的 warning 就算忽略也沒關係，真正造成 compile error 的是 &quot;error&quot;</p>
+<p>分數版的看法可參考<a href="http://gpe2.acm-icpc.tw/domjudge2/pct/scoreboard.php?cid=110">「某次比賽的分數版」</a>。</p>
+<p><img src="/csdream/docs/assets/bpc-score.png" alt="分數版"></p>
+<p>Score 欄位有兩個數字，如 7 和 442：前者是你解的題數，後者是花的總時間，排名是先比題數，再看誰花的時間較少。</p>
+<p>每一題都會顯示幾個數字，如 6 (164 + 100)。6 表示你傳了六次(會一直記到解正確為止)，164是你 Accept 時比賽經過了多久(164分鐘)，每傳一次錯誤會罰20分鐘，所以 + 100 就是罰了五次共100分鐘。</p>
+<p>時間和罰分只有在 Accept 後才會記入總時間。在程式檢定中，只要解出兩題就算通過。</p>
+<h2><a class="anchor" aria-hidden="true" id="小提醒"></a><a href="#小提醒" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>小提醒</h2>
+<ol>
+<li>無論題目敘述為何，只要可以將輸入轉換為正確的輸出即為正確，以 <a href="http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-16&amp;amp;cid=2">2008-16: Binary quicksort (Radix-exchange sort)</a>，<a href="http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-31&amp;amp;cid=2">2008-31: m-way merge</a>，為例，前者要你用 Radix sort 排列數字，後者要你 merge 多維陣列，但實際上兩題都可以直接把所有數字讀入一個陣列中，再直接排列數字後輸出即可：</li>
+</ol>
+<pre><code class="hljs css cpp">sort(<span class="hljs-built_in">array</span>, <span class="hljs-built_in">array</span>+size);
+</code></pre>
+<ol start="2">
+<li>善用函式庫</li>
+</ol>
+<p>上面兩題可以用 <a href="http://www.sgi.com/tech/stl/">C++ STL</a> 中的 <a href="http://www.sgi.com/tech/stl/sort.html">sort</a> 來排列數字，善用函式庫確實可以節省許多時間，以 <a href="http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-29&amp;amp;cid=2">2008-29:Permutation</a> 為例，若使用 STL 的 <a href="http://www.sgi.com/tech/stl/next_permutation.html">next_permutation</a> 的話程式變得相當簡單...</p>
+<pre><code class="hljs css cpp"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;cstdio&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;vector&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;algorithm&gt;</span></span>
+<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+        <span class="hljs-keyword">int</span> d;
+        <span class="hljs-built_in">vector</span>&lt;<span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>&gt; sz;
+        sz.push_back(<span class="hljs-number">1</span>);
+        <span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d"</span>, &amp;d);
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> c=<span class="hljs-number">1</span>; c&lt;=d; ++c) {
+                <span class="hljs-keyword">int</span> n;
+                <span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d"</span>, &amp;n);
+                <span class="hljs-keyword">while</span> (n &gt; sz.size()) sz.push_back(sz.back()*(sz.size()+<span class="hljs-number">1</span>));
+                <span class="hljs-built_in">printf</span>(<span class="hljs-string">"%llu\n"</span>, sz[n<span class="hljs-number">-1</span>]);
+                <span class="hljs-keyword">int</span> vec[<span class="hljs-number">7</span>];
+                <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i=<span class="hljs-number">0</span>; i&lt;n; ++i)
+                        vec[i] = i+<span class="hljs-number">1</span>;
+                <span class="hljs-keyword">do</span> {
+                        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"%d"</span>, vec[<span class="hljs-number">0</span>]);
+                        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i=<span class="hljs-number">1</span>; i&lt;n; ++i)
+                                <span class="hljs-built_in">printf</span>(<span class="hljs-string">" %d"</span>, vec[i]);
+                        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"\n"</span>);
+                } <span class="hljs-keyword">while</span> (next_permutation(vec, vec+n));
+
+        }
+}
+</code></pre>
+<ol start="3">
+<li><p>大體上基礎程設題目的測資都很弱所以不一定要用最快的演算法，有時就算用 Brute-force (暴力解、跑完所有可能，硬作)依然會過。當然也有暴力解會超過時間的情形。</p></li>
+<li><p>有些題目是經典演算法題，以 <a href="http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-13&amp;amp;cid=2">2008-13:Maximum contiguous subsequence</a> 為例，這是一個很典型的問題，有很多解法：<a href="http://goo.gl/tmavy">http://goo.gl/tmavy</a> 。<a href="http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-32&amp;amp;cid=2">2008-32</a> 是基本的 <a href="http://en.wikipedia.org/wiki/Shortest-path">Shortest-path</a> 問題。</p></li>
+</ol>
+<p><a href="http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-17&amp;amp;cid=2">2008-17:Farey series of order n</a> 則是只要照著題目的公式做就行，要注意一些輸出的小細節。</p>
+<h2><a class="anchor" aria-hidden="true" id="其它"></a><a href="#其它" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>其它</h2>
+<ul>
+<li><a href="http://gpe.acm-icpc.tw">基礎程設檢定網站</a></li>
+<li><a href="http://ptc.moe.edu.tw">國際大專院校程式設計競賽推廣與培訓</a></li>
+<li><a href="http://chchwy.blogspot.com/2008/09/acm_30.html">[ACM] 自己整理一些有用的網站</a></li>
+<li>C/C++常用函式參考：<a href="http://www.cppreference.com">C++ Reference</a></li>
+<li>一些題目如果實在解不出來可以按 Wiki 頁面，有解法參考。</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="遊戲式的線上競賽"></a><a href="#遊戲式的線上競賽" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>遊戲式的線上競賽</h2>
+<p>簡單來說就是兩個人連線後，系統會出題，通常不會太複雜，比看誰先解出來。兩個網站都支援許多語言，可以選自己擅長的來比賽。</p>
+<ul>
+<li><a href="https://codefights.com">CodeFights</a></li>
+<li><a href="https://www.codingame.com/games">CodinGame</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="面試類線上題庫"></a><a href="#面試類線上題庫" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>面試類線上題庫</h2>
+<ul>
+<li><a href="https://leetcode.com/">LeetCode</a></li>
+<li><a href="hackerrank.com/">HackerRank</a></li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="python.html">← Python</a><a class="docs-next button" href="nonprofit.html">參與公益行動 →</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#前言">前言</a></li><li><a href="#基礎">基礎</a></li><li><a href="#程式鑑定網站">程式鑑定網站</a></li><li><a href="#小提醒">小提醒</a></li><li><a href="#其它">其它</a></li><li><a href="#遊戲式的線上競賽">遊戲式的線上競賽</a></li><li><a href="#面試類線上題庫">面試類線上題庫</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2011-2018 Shaform</section></footer></div></body></html>
