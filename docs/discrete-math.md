@@ -9,7 +9,7 @@ title: 離散數學
 
 ## 簡介
 
-邏輯學是數學推論證明的基礎，是理解數學的基礎之一，在課程中也會帶到 [Mathematical induction](http://en.wikipedia.org/wiki/Mathematical_induction) 等證明的方法，在其後的數學課程中常會使用，若要深入研究，系上也有數理邏輯的課程可供選修。[Sets](http://en.wikipedia.org/wiki/Set_(mathematics%29), [Graphs](http://en.wikipedia.org/wiki/Graph_(mathematics%29), [Functions](http://en.wikipedia.org/wiki/Function_(mathematics%29) 這些經常被使用的觀念，也會在這堂課裡教授，其中 Graphs 對新生而言可能較不熟悉，卻是往後課程中大量使用的概念。演算法可說是電腦科學的核心之一，也有自己獨立的一門課程。在離散這堂課裡，會介紹演算法的定義，以及幾種簡單的演算法。遞迴的概念在程式設計中非常常見，而在[分析演算法效率](http://en.wikipedia.org/wiki/Algorithm_analysis)時，也會[用到解遞迴式的技巧](http://www.cs.duke.edu/~ola/ap/recurrence.html)。數論主要會介紹和密碼學有密切相關的部份，像是 [Chinese remainder theorem](http://en.wikipedia.org/wiki/Chinese_remainder_theorem), [RSA](http://en.wikipedia.org/wiki/RSA_(algorithm%29)等等。
+邏輯學是數學推論證明的基礎，是理解數學的基礎之一，在課程中也會帶到 [Mathematical induction](http://en.wikipedia.org/wiki/Mathematical_induction) 等證明的方法，在其後的數學課程中常會使用，若要深入研究，系上也有數理邏輯的課程可供選修。[Sets](http://en.wikipedia.org/wiki/Set_%28mathematics%29), [Graphs](http://en.wikipedia.org/wiki/Graph_%28mathematics%29), [Functions](http://en.wikipedia.org/wiki/Function_%28mathematics%29) 這些經常被使用的觀念，也會在這堂課裡教授，其中 Graphs 對新生而言可能較不熟悉，卻是往後課程中大量使用的概念。演算法可說是電腦科學的核心之一，也有自己獨立的一門課程。在離散這堂課裡，會介紹演算法的定義，以及幾種簡單的演算法。遞迴的概念在程式設計中非常常見，而在[分析演算法效率](http://en.wikipedia.org/wiki/Algorithm_analysis)時，也會[用到解遞迴式的技巧](http://www.cs.duke.edu/~ola/ap/recurrence.html)。數論主要會介紹和密碼學有密切相關的部份，像是 [Chinese remainder theorem](http://en.wikipedia.org/wiki/Chinese_remainder_theorem), [RSA](http://en.wikipedia.org/wiki/RSA_%28algorithm%29)等等。
 
 這是一門重定義、理解、以及證明的數學課，相對於實做導向的程式課或者是計算為主的微積分等課程有很大的不同，在學習時應將每個概念與證明完整理解。筆者自己以及許多同學在學習這堂課時，經常對所學感到不踏實，直到後來學習更深入的課程時才了解離散數學基礎的重要。若有時間，可嘗試閱讀延伸課程之教科書，或許能對離散的學習帶來一些幫助。
 

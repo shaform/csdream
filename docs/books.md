@@ -19,7 +19,7 @@ title: 取得書籍
 
 然而熟悉一下圖書館的環境還是不錯的，自己的房間其實不是一個適合讀書的好環境，圖書館在你想認真看書時，會是很重要的伴侶。而且有很多大學圖書館不僅館藏豐富，也有不少讀書空間、以及筆電插座，像是[交大浩然圖書館](http://www.lib.nctu.edu.tw/)就值得好好利用。
 
-如果妳要的書在圖書館裡沒有，妳也可向圖書館推薦購買。在交大，推薦的教科書書多半都會購入，且你還能得到最優先的借閱權力。此外，你也可以利用[「台灣聯合大學系統（UST）圖書代借代還服務」](http://ustcate.lib.nctu.edu.tw/)從交大借閱清華、陽明、中央等大學的圖書。
+如果妳要的書在圖書館裡沒有，妳也可向圖書館推薦購買。在交大，推薦的教科書書多半都會購入，且你還能得到最優先的借閱權力。
 
 ## 市立圖書館
 
@@ -29,7 +29,7 @@ title: 取得書籍
 
 想要購買原文的書，在一般的網路書店，常會需要較高的價格。想訂教科書的最好方法，還是透過大學裡的書店較為妥當，例如交大校內的教科書是由[華通書局](http://www.huatung.com/)處理，成大可試試[成大圖書部](http://www.nckubook.com.tw/)。
 
-除此之外，和電腦相關的原文書，[天瓏網路書店](http://www.tenlong.com.tw/)上也有不錯的價格。
+除此之外，和電腦相關的原文書，[天瓏網路書店](https://www.tenlong.com.tw/)上也有不錯的價格。
 
 ## 二手書
 
@@ -37,19 +37,20 @@ title: 取得書籍
 
 網路上可找到一些拍賣網站：
 
-*   [讀冊生活](http://www.taaze.tw)
-*   [露天拍賣](http://www.ruten.com.tw)
-*   [雅虎拍賣](http://tw.bid.yahoo.com)
+*   [讀冊生活](https://www.taaze.tw)
+*   [蝦皮拍賣](https://shopee.tw)
+*   [雅虎拍賣](https://tw.bid.yahoo.com)
+*   [露天拍賣](https://www.ruten.com.tw)
 
-以交通大學來說，學生主要是在 [BBS](http://ptt-kkman-pcman.org/bbs.html) 站上買賣二手書，例如 [BS2](telnet://bs2.to) 站上的 Oldbooks 版及 NCTU-Market 版，在校園中取書總是非常方便。([ptt](telnet://ptt.cc) 站上也有 [barterbooks 版](http://www.ptt.cc/bbs/barterbooks/index.html))
-
-其他的大學也有各自買賣舊書的管道，可以詢問看看。
+每間學校熟悉的拍賣管道各有不同，像是 [ptt](https://term.ptt.cc/) 站上有 [barterbooks 版](https://www.ptt.cc/bbs/barterbooks/index.html)，但也有一些學校是在 Facebook 上成立買賣社團，可以詢問學長姊看看。
 
 ## 電子書
 
 如果有信用卡或 VISA 金融卡等付款管道，透過網路購買電子書也是很方便的作法。如果會擔心眼睛的疲勞的話，可以考慮採購 [Kindle][] 等電子書閱讀器，除了直接跨國購買外，也可以在之前提過的拍賣網站中找到代購的服務。買到了以後，就可以方便的購買並閱讀電子書了。
 
 [Kindle]: https://www.google.com/search?q=Kindle
+
+更多電子書相關議題，也可參閱[電子閱讀討論區](https://www.facebook.com/groups/ereadingclub/)。
 
 
 ## 網路資源
@@ -58,9 +59,9 @@ title: 取得書籍
 
 幾個適合的起始點：
 
-*   [Google Books](http://books.google.com)
-*   [List of freely available programming books](http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books)
-*   [Google](http://www.google.com)
+*   [Google Books](https://books.google.com)
+*   [List of freely available programming books](https://github.com/EbookFoundation/free-programming-books)
+*   [Google](https://www.google.com)
 
 ## 結語
 

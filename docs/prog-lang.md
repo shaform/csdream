@@ -35,7 +35,7 @@ title: 程式語言
 
 *   [Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29)：十分易學且易讀的程式語言，同時也受到廣泛運用。除了擁有 imperative 和 object-oriented 的特性之外，也有一些 functional programming 功能。網路上的教學資源非常的多，如：[The Python Tutorial](http://docs.python.org/py3k/tutorial/ "The Python Tutorial")、[Python 教學](http://www.ez2learn.com/index.php/python-tutorials)
 *   [Java](http://en.wikipedia.org/wiki/Java_%28programming_language%29)：廣受使用的 objecti-oriented 語言，可參考 [The Java Tutorials](http://docs.oracle.com/javase/tutorial/)、書籍推薦[《Head First Java》](http://shop.oreilly.com/product/9780596009205.do)。
-*   [Haskell](http://en.wikipedia.org/wiki/Haskell_(programming_language%29)：純粹的 functional programming language，可參考 [Haskell Introduction](http://www.haskell.org/haskellwiki/Introduction) 的介紹。網路上也有優質的學習資源：[Learn You a Haskell](http://learnyouahaskell.com/)。
+*   [Haskell](http://en.wikipedia.org/wiki/Haskell_%28programming_language%29)：純粹的 functional programming language，可參考 [Haskell Introduction](http://www.haskell.org/haskellwiki/Introduction) 的介紹。網路上也有優質的學習資源：[Learn You a Haskell](http://learnyouahaskell.com/)。
 *   [Prolog](http://en.wikipedia.org/wiki/Prolog)：相當知名的 logic programming language。
 *   [C/C++](http://en.wikipedia.org/wiki/C%2B%2B)：在交大資工課程中最常使用的語言。
 

@@ -1,149 +1,130 @@
 ---
 id: problem-solving
-title: 程式解題
+title: 練習程式解題
 ---
 
 ## 前言
 
-基礎程式設計是[交大資工](http://www.cs.nctu.edu.tw/)大二的[必修課程](http://www.cs.nctu.edu.tw/cswebsite/education/undergraduate/course#course_rule)，說是課程，其實主要是一個程式設計的檢定。題目的形式像是一般高中資訊學科能力競賽或者是 [ACM ICPC](http://chinese.engadget.com/2009/03/16/interview-acm-contest-team-in-ntu/) 等等，不過題目比較沒有那麼難。
+程式解題，指的是利用寫程式來解決一些特定的程式題目。這些題目通常會指定特定的輸入，而要求程式輸出特定的輸出。例如像是輸入一張地圖的表示，以及起點和終點的表示，則程式必須找到從起點到終點的最短路徑，並將結果輸出。
 
-如公告所示：
-
-1.    不修課也可以參加「程式能力鑑定」
-2.   可考過後再選修「基礎程式設計」(上課第一天確認己通過後，即可不再出席)
-3.   「程式能力鑑定」可不限次數參加
-4.   選修「基礎程式設計」，若整個學期都沒考過，則該科成績就不及格
-
-由此可見，最好的策略是在實際選修之前，就開始去參加[「程式能力鑑定」](http://gpe.acm-icpc.tw/)，若通過了，則選「基礎程設」課程時，即可直接視為通過。
-
-檢定考的題目皆從檢定網站上的[題庫](http://gpe.acm-icpc.tw/)而來，學生們隨時都可以到網站上練習，也可以馬上得知自己寫的是否正確。即使不是交大的學生也可以到系統上註冊帳號寫題目。
-
-從資工系大二開始，有很多課都要寫程式。基礎程設的題目提供了練習寫程式的絕佳機會。有心的話，從高中開始練習也不錯。
+這類問題也是[資訊能力競賽](https://zh.wikipedia.org/zh-tw/%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8%E6%95%B8%E7%90%86%E5%8F%8A%E8%B3%87%E8%A8%8A%E5%AD%B8%E7%A7%91%E8%83%BD%E5%8A%9B%E7%AB%B6%E8%B3%BD)、[資訊奧林匹亞](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics)、[大學程式設計先修檢測](https://apcs.csie.ntnu.edu.tw)、[大學程式能力檢定](https://cpe.cse.nsysu.edu.tw/)、[ACM 大學生程式競賽](https://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest)等等的標準考題。就算是進入職場，許多面試也會要求應試者在白板上現場解類似的題目，可說是資訊界最基礎的練習問題也不為過。
 
 ## 基礎
 
-Online Judge 的題目除了需要對使用的語言有一定的嫻熟度外（特別是在處理輸出入時），有時也會用到[演算法](http://en.wikipedia.org/wiki/Algorithm)（基礎程設的題目不太會出現一些很難的演算法）。
+程式解題的題目除了需要對使用的語言有一定的嫻熟度外（特別是在處理輸出入時），有時也會用到[演算法](https://en.wikipedia.org/wiki/Algorithm)。
 
-目前支援的語言有 [C](http://en.wikipedia.org/wiki/C_%28programming_language%29), [C++](http://en.wikipedia.org/wiki/C%2B%2B), [Java](http://en.wikipedia.org/wiki/Java_%28programming_language%29) 等等，在交大資工裡，最常碰到的語言是 C 和 C++，但也些課也會要求使用 Java。
+學好一個程式語言的方法無他，便是需要大量的練習。為了掌握語言的細節，最好是能至少完整看完一本介紹的書。如果要自修 C 的話，推薦  [《C Programming: A Modern Approach》](http://knking.com/books/c2/index.html)，這本書的筆調清晰，十分易讀。
 
-學好一個程式語言的方法無他，便是需要大量的練習。為了掌握語言的細節，最好是能至少完整看完一本介紹的書。如果要自修 C 的話，推薦  [《C Programming: A Modern Approach》](http://www.anobii.com/books/C_Programming/9780393979503/01d43c0f2926ab73e7/)，這本書的筆調清晰，十分易讀。
+C++，一般都推 [《C++ How to Program》](https://www.pearson.com/us/higher-education/product/Deitel-C-How-to-Program-10th-Edition/9780134448237.html)。一天看個幾十頁，不到一個學期就能看完。接下來再透過寫題目來磨練自己的技巧，就能不斷進步。
 
-C++，一般都推 [《C++ Primer》](http://www.anobii.com/books/C_Primer/9780201721485/00d73a0b9b1d04cd44/)，也可以跟 [《C++ Primer Plus》](http://www.anobii.com/books/C_Primer_Plus/9780672326974/01b0c574ef4c3cee80/) 比較看看。一天看個幾十頁，不到一個學期就能看完。接下來再透過寫題目來磨練自己的技巧，就能不斷進步。
-
-演算法的部份，如果要看正式的教科書的話，學校用的是 [《Introduction to Algorithms》](http://www.anobii.com/books/Introduction_to_Algorithms/9780262033848/01d9ac2cad55a6c282/)。另外,推薦一本比較小本，[《Algorithm Design》](http://www.anobii.com/books/Algorithm_Design/9780321372918/014579928ca81253f3/) 感覺挺適合入門。
+演算法的部份，如果要看正式的教科書的話，學校用的是 [《Introduction to Algorithms》](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)。另外,推薦一本比較小本，[《Algorithm Design》](https://www.goodreads.com/book/show/145055.Algorithm_Design) 感覺挺適合入門。
 
 當然，實際上直接動手解題也可以。很多深入的演算法其實並不會在題目中見到，有時反而是要一點小聰明。
 
 網路上也能找到一些程式設計的入門教學，在此枚舉幾項：
 
-*   [C Gossip](http://openhome.cc/Gossip/CGossip/)
+*   [C Gossip](https://openhome.cc/Gossip/CGossip/)
 *   [演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/index.html)
 
+## Timus Online Judge
 
-## 程式鑑定網站
+以下就介紹其中一個 Online Judge 題庫網的使用方法。
 
-程式檢定的網址在 http://gpe.acm-icpc.tw/ ，若要建立新帳號，只要按下「Apply Here」，然後簡單填一下資料，再收一下確認信即可。
+[Timus Online Judge](http://acm.timus.ru) 是俄國 Ural 大學設立的程式線上測驗網站，有許多程式題目可供大家練習。他支援 C++ / Java / Python / Ruby / Go / Haskell / Pascall / Scala 等等多種語言，而且網站速度滿快的，還有貼心的題目難易排行。進入 [http://acm.timus.ru/](http://acm.timus.ru/) 後可看到首頁如下：
+![Timus OJ](assets/timus1.png)
 
-基礎程式檢定的形式，是透過 Online Judge 解題。關於 Online Judge 的來歷，可參考：[Online Judge System](http://www.csie.ntnu.edu.tw/~u91029/oj.html)。
+### 重要連結
 
-大致上，每道題目都會有許多輸入，你的程式要將輸入轉換成正確的輸出。輸出入都是採 Standard Input / Output，可以參考 [How to write C/C++ solutions](http://acm.timus.ru/help.aspx?topic=cpp)。
+在上方可以看到不少連結，這裡針對一些比較重要的部份介紹。
+![timus menu](assets/timus-menu.png)
 
-把程式傳上去後，會自動 Judge 並把結果回報給你。每解開一道題目，總會有滿滿的成就感。兩三天解個一題也好，對程式的掌握度必能提升。
+*   [Frequently asked questions](http://acm.timus.ru/help.aspx?topic=faq), [Guide
+](http://acm.timus.ru/help.aspx?topic=judge) - 
+這兩個地方可以找到網站的使用指引和常見問題，也有如何用特定程式語言解題目的示範，建議可以先從這裡看起。
+*   [Problem set](http://acm.timus.ru/problemset.aspx) - 
+網站的題庫區，想解題時從這裡開始。
+*   [Submit solution](http://acm.timus.ru/submit.aspx) - 
+如果妳已經知道想解問題的編號的話，使用這個頁面可以快速送出你的程式碼給網站評分。
+*   [Judge status](http://acm.timus.ru/status.aspx) - 
+可以看到大家和自己最近上傳的程式碼被評分的狀態。
+*   [Register](http://acm.timus.ru/register.aspx) - 
+如果妳還沒註冊的話要先註冊帳號才能開始解題。
 
-關於各種訊息的意思可參考[〈程式解題系統使用手冊〉](http://judge.nccucs.org/UserGuide.jsp)的「錯誤的訊息意義」。
+### 註冊帳號
 
-注意到，輸出一定要完全相符才會 Accept，就算多印/少印一行空白仍視為 Wrong Answer。
+我們就按下 [Register](http://acm.timus.ru/register.aspx) 開始註冊自己的帳號吧！
 
-Run-error 的原因有很多種。像是除以0、存取不正確的記憶體位址、遞迴太多層(stack overflow)等等。
+![Timus register](assets/timus2.png)
 
-它編譯器的檢查比較嚴格，所以有時會出現一些 warning，例如，如果你寫了：
+上面的重要欄位由上而下分別是**名字**、**密碼**、**再輸入一次密碼做確認**、**電子郵件**、**國家**。名字的部份必須要填英文，會顯示在自己頁面還有排名等等。密碼平常不會用到，只有更改資料時有用，建議可以設成跟平時的密碼不同。電子郵件一定要填有效的，才收的到之後的確認信。最下面的欄位請輸入妳看到的數字，這樣他才知道你不是亂註冊的機器人。 填好後按下 Register 就可以等著收郵件囉，如果一直沒收到的話還可以用 [password recovery form](http://acm.timus.ru/authedit.aspx) 要求重寄。
 
-```cpp
-scanf("%d %d", &digit1, &digit2);
-```
+![Timus registered](assets/timus3.png)
 
-就會出現：
+收到的信內容大概像下面一樣，它會把你的密碼還有 **JUDGE_ID** 寄給妳，這個 JUDGE_ID 很重要，將來上傳程式碼就是要依據這個 ID，所以也請不要隨便把 JUDGE_ID 告訴別人喔。
+![Timus email](assets/timus4.png)
 
-> source.cpp:10: warning:
-> ignoring return value of 'int scanf(const char*, ...)',
-> declared with attribute warn_unused_result
+### 開始解題
 
-那是因為沒有檢查 scanf 的回傳值，你無法確定是否有成功讀取。這樣的 warning 就算忽略也沒關係，真正造成 compile error 的是 "error"
+點擊 [Problem set](http://acm.timus.ru/problemset.aspx) 就可以看到網站上的題目集了，這裡我們先選擇 [All problems](http://acm.timus.ru/problemset.aspx?space=1&amp;page=all) 觀看全部的題目。
+![Timus problem set](assets/timus5.png)
 
-分數版的看法可參考[「某次比賽的分數版」](http://gpe2.acm-icpc.tw/domjudge2/pct/scoreboard.php?cid=110)。
+接下來你應該會看到如下頁面，我們選擇 Sort by: difficulty，讓最簡單的題目被列出來，畢竟新手起步還是不要太好高騖遠才好。看來 A+B Problem 最簡單了，就從這題開始吧！
+![Timus all problems](assets/timus6.png)
 
-![分數版](assets/bpc-score.png)
+這題的題目是什麼呢？程式的輸入只有一行，是兩個數字，計算兩者相加再輸出一行答案即可，簡單吧！不過在解題之前讓我們先看看題目頁面吧，首先最上面會有：
 
-Score 欄位有兩個數字，如 7 和 442：前者是你解的題數，後者是花的總時間，排名是先比題數，再看誰花的時間較少。
+*   Time limit - 程式執行時間的限制
+*   Memory limit - 程式使用記憶體的限制
 
-每一題都會顯示幾個數字，如 6 (164 + 100)。6 表示你傳了六次(會一直記到解正確為止)，164是你 Accept 時比賽經過了多久(164分鐘)，每傳一次錯誤會罰20分鐘，所以 + 100 就是罰了五次共100分鐘。
+再來則是題目的敘述，接下來還會有兩個段落特別提到：
 
-時間和罰分只有在 Accept 後才會記入總時間。在程式檢定中，只要解出兩題就算通過。
+*   Input - 程式輸入的資料及資料呈現的格式
+*   Output - 程式的輸出
 
-## 小提醒
+最後則會有範例的輸入及你的程式如果遇到此輸入時應該送出的輸出。
 
-1.   無論題目敘述為何，只要可以將輸入轉換為正確的輸出即為正確，以 [2008-16: Binary quicksort (Radix-exchange sort)](http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-16&amp;cid=2)，[2008-31: m-way merge](http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-31&amp;cid=2)，為例，前者要你用 Radix sort 排列數字，後者要你 merge 多維陣列，但實際上兩題都可以直接把所有數字讀入一個陣列中，再直接排列數字後輸出即可：
+![Timus 1000](assets/timus7.png)
 
-```cpp
-sort(array, array+size);
-```
+等你解完程式打算上傳程式碼時，就點擊下方的 Submit solution。此外，如果卡住不知道怎麼解，還可以按下 Discussion 和大家一起討論解法呢。
 
-2.   善用函式庫
+上傳界面如下，在 JUDGE_ID 打入之前收到的自己 ID，然後在 Language 選擇自己使用的程式語言環境，這裡的選擇滿多的，像是 Python 就有不同版本，C/C++ 的話也可以選擇 Visual C/C++、GCC/G++、和支援新版 C11/C++11 的 GCC/G++ 等等。Problem 就是目前題目的題號。然後把答案程式碼貼在下面框框，或者用 Choose File 直接上傳原始碼。按下 Submit 就上傳了！
 
-上面兩題可以用 [C++ STL](http://www.sgi.com/tech/stl/) 中的 [sort](http://www.sgi.com/tech/stl/sort.html) 來排列數字，善用函式庫確實可以節省許多時間，以 [2008-29:Permutation](http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-29&amp;cid=2) 為例，若使用 STL 的 [next_permutation](http://www.sgi.com/tech/stl/next_permutation.html) 的話程式變得相當簡單...
+![Timus submit](assets/timus8.png)
 
-```cpp
-#include <cstdio>
-#include <vector>
-#include <algorithm>
-using namespace std;
-int main()
-{
-        int d;
-        vector<unsigned long long> sz;
-        sz.push_back(1);
-        scanf("%d", &d);
-        for (int c=1; c<=d; ++c) {
-                int n;
-                scanf("%d", &n);
-                while (n > sz.size()) sz.push_back(sz.back()*(sz.size()+1));
-                printf("%llu\n", sz[n-1]);
-                int vec[7];
-                for (int i=0; i<n; ++i)
-                        vec[i] = i+1;
-                do {
-                        printf("%d", vec[0]);
-                        for (int i=1; i<n; ++i)
-                                printf(" %d", vec[i]);
-                        printf("\n");
-                } while (next_permutation(vec, vec+n));
+上傳後會看到如下頁面，可以看到程式還在執行中，其他人有的已經寫出正確解答了(Accepted)，也有人有錯誤(Wrong answer)，錯誤時它還會告訴你是錯在第幾筆測資呢(Test #)，只是它當然不會告訴你測資的內容啦。
+![timus judgement result](assets/timus9.png)
 
-        }
-}
-```
+按下重新整理，或者等一陣子讓它自己更新，就可以看到評分結果啦，正確了，是不是很開心呢：
+![timus accepted](assets/timus10.png)
 
-3.   大體上基礎程設題目的測資都很弱所以不一定要用最快的演算法，有時就算用 Brute-force (暴力解、跑完所有可能，硬作)依然會過。當然也有暴力解會超過時間的情形。
+點擊自己的名字可以進到個人頁面，這裡會顯示自己的積分和排名，還有解過的題目，看到一個個題目慢慢被解出來，真的有不少成就感。除此之外，也可以看看其他人的頁面喔！
+![timus user page](assets/timus11.png)
 
-4.   有些題目是經典演算法題，以 [2008-13:Maximum contiguous subsequence](http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-13&amp;cid=2) 為例，這是一個很典型的問題，有很多解法：http://goo.gl/tmavy 。[2008-32](http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-32&amp;cid=2) 是基本的 [Shortest-path](http://en.wikipedia.org/wiki/Shortest-path) 問題。
+### 評分結果說明
 
-[2008-17:Farey series of order n](http://gpe2.acm-icpc.tw/domjudge2/pct/showproblemtab.php?probid=2008-17&amp;cid=2) 則是只要照著題目的公式做就行，要注意一些輸出的小細節。
+*   Accepted. - 正確！
+*   Compilation error. - 程式編譯錯誤，可能是打錯字等等。
+*   Wrong answer. - 答案錯誤。
+*   Time limit exceeded. - 程式跑太久了。
+*   Memory limit exceeded. - 程式用太多記憶體了。
+*   Output limit exceeded. - 程式輸出太多東西了。
+*   Runtime error. - 程式跑的時候當掉了。
+*   Restricted function. - 程式使用到了禁止的功能，像是企圖讀取伺服器上的檔案等等。
 
-## 其它
+## 面試類線上題庫
 
-*   [基礎程設檢定網站](http://gpe.acm-icpc.tw)
-*   [國際大專院校程式設計競賽推廣與培訓](http://ptc.moe.edu.tw)
-*   [[ACM] 自己整理一些有用的網站](http://chchwy.blogspot.com/2008/09/acm_30.html)
-*   C/C++常用函式參考：[C++ Reference](http://www.cppreference.com)
-*   一些題目如果實在解不出來可以按 Wiki 頁面，有解法參考。
+競賽的程式解題通常較困難，一題可能就花去不少時間，因此在面試時通常不會考那麼困難。網路上也有人蒐集平常面試可能會考的問題，讀者可以嘗試練習看看。
+
+*   [LeetCode](https://leetcode.com/)
+*   [HackerRank](https://hackerrank.com/)
 
 ## 遊戲式的線上競賽
 
-簡單來說就是兩個人連線後，系統會出題，通常不會太複雜，比看誰先解出來。兩個網站都支援許多語言，可以選自己擅長的來比賽。
+除了正規的程式解題外，也有人發展用寫程式來玩遊戲的教學網站。兩個網站都支援許多語言，可以選自己擅長的來比賽。
 
 * [CodeFights](https://codefights.com)
 * [CodinGame](https://www.codingame.com/games)
 
-## 面試類線上題庫
+## 相關連結
 
-*   [LeetCode](https://leetcode.com/)
-*   [HackerRank](hackerrank.com/)
+*   [演算法筆記 - Competitive Programming](http://www.csie.ntnu.edu.tw/~u91029/Algorithm.html#5)

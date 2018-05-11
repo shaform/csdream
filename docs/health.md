@@ -1,6 +1,6 @@
 ---
 id: health
-title: 健康
+title: 維持身體健康
 ---
 
 ## 前言
