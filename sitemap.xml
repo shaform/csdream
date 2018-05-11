@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://shaform.com/docs/asm.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/asm.html" /> </url>
+<url> <loc>https://shaform.com/docs/basic.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/basic.html" /> </url>
 <url> <loc>https://shaform.com/docs/books.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/books.html" /> </url>
 <url> <loc>https://shaform.com/docs/cs-degree.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/cs-degree.html" /> </url>
 <url> <loc>https://shaform.com/docs/cs-project.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/cs-project.html" /> </url>
@@ -13,6 +14,7 @@
 <url> <loc>https://shaform.com/docs/health.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/health.html" /> </url>
 <url> <loc>https://shaform.com/docs/intro-to-crypto.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/intro-to-crypto.html" /> </url>
 <url> <loc>https://shaform.com/docs/intro-to-cs-and-prog.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/intro-to-cs-and-prog.html" /> </url>
+<url> <loc>https://shaform.com/docs/learn-prog-lang.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/learn-prog-lang.html" /> </url>
 <url> <loc>https://shaform.com/docs/micro.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/micro.html" /> </url>
 <url> <loc>https://shaform.com/docs/nctu-opportunities.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/nctu-opportunities.html" /> </url>
 <url> <loc>https://shaform.com/docs/nonprofit.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/nonprofit.html" /> </url>
@@ -20,9 +22,8 @@
 <url> <loc>https://shaform.com/docs/open-source.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/open-source.html" /> </url>
 <url> <loc>https://shaform.com/docs/problem-solving.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/problem-solving.html" /> </url>
 <url> <loc>https://shaform.com/docs/prog-lang.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/prog-lang.html" /> </url>
-<url> <loc>https://shaform.com/docs/python.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/python.html" /> </url>
 <url> <loc>https://shaform.com/docs/search.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/search.html" /> </url>
 <url> <loc>https://shaform.com/docs/software-engineer.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/software-engineer.html" /> </url>
 <url> <loc>https://shaform.com/docs/startup.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/startup.html" /> </url>
-<url> <loc>https://shaform.com/docs/timus-oj.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/timus-oj.html" /> </url>
+<url> <loc>https://shaform.com/docs/tools.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://shaform.com/docs/tools.html" /> </url>
 </urlset>
