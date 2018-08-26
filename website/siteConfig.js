@@ -12,7 +12,7 @@ const users = [
 const siteConfig = {
   title: '資夢',
   tagline: '我們相信，資訊科技可以改變世界。',
-  url: 'https://shaform.com/csdream',
+  url: 'https://shaform.com',
   baseUrl: '/csdream/',
   headerLinks: [
     {href: 'https://github.com/shaform/csdream', label:'Fork us on GitHub!'},
