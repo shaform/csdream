@@ -1,2 +1,20 @@
-github:
-	cd website; USE_SSH=true CURRENT_BRANCH=master yarn run publish-gh-pages
+MSG?=Generate site
+
+BASEDIR=$(CURDIR)
+OUTPUTDIR=$(BASEDIR)/public
+
+GITHUB_PAGES_BRANCH=gh-pages
+
+publish: clean build
+
+build:
+	hugo
+
+clean:
+	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+
+github: publish
+	ghp-import -m "$(MSG)" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
+	git push origin $(GITHUB_PAGES_BRANCH)
+
+.PHONY: publish clean github
