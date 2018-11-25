@@ -16,21 +16,15 @@
 
 ## 參與
 
-《資夢》採用 [Docusaurus](https://docusaurus.io/) 發佈。歡迎大家開立 issue 提供建議，也可以送 pull requests 來增加新內容。以下是可能有幫助的資源：
+《資夢》採用 [Hugo](https://gohugo.io) 發佈。歡迎大家開立 issue 提供建議，也可以送 pull requests 來增加新內容。以下是可能有幫助的資源：
 
 *   [Git & GitHub 教學](http://ncu-csie-snmg.github.io/2013-NCU-CSIE-Website-Design-Competition/git.html)
 *   [Markdown 語法說明](http://markdown.tw)
 
-安裝完 `npm`, `yarn` 等 packages 之後，可在 `website` 目錄執行以下指令，安裝 Docusaurus：
+安裝完 `hugo` 之後，可在根目錄執行以下指令測試網站：
 
   ```bash
-  yarn install
-  ```
-
-然後在 `website` 目錄執行以下指令，測試網站成效：
-
-  ```bash
-  yarn run start
+  hugo server
   ```
 
 ## 授權
