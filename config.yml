@@ -1,0 +1,42 @@
+# hugo server --themesDir ...
+
+baseURL: https://shaform.com/csdream
+title: 資夢
+theme: hugo-book
+googleAnalytics: UA-13132274-5
+
+# language setting
+defaultContentLanguage: zh
+defaultContentLanguageInSubdir: true
+
+PygmentsCodeFences: true
+
+languages:
+  zh:
+    languageCode: zh-TW
+    languageName: 繁體中文
+    contentDir: content/zh
+    weight: 1
+
+  # en:
+  #   languageCode: en-US
+  #   languageName: English
+  #   contentDir: content/en
+  #   weight: 2
+
+# Book configuration
+disablePathToLower: true
+
+params:
+  Description: 我們相信，資訊科技可以改變世界。
+
+  # show or hide table of contents for page
+  BookShowToC: true
+
+  # Set bundle to render side menu
+  # if not specified file structure and weights will be used
+  BookMenuBundle: /menu
+
+  # specify section of content to render as menu
+  # if bookMenuBundle is not set, 'docs' is value by default
+  BookSection: docs
