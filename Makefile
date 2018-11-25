@@ -9,6 +9,7 @@ publish: clean build
 
 build:
 	hugo
+	touch $(OUTPUTDIR)/.nojekyll
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
