@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>程式語言 | 資夢</title>
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="/csdream/normalize.min.css">
+
+
+<link rel="stylesheet" href="/csdream/book.min.0c58b5a1c698b51e6e0389f0824d973b073abaabb4e052411804f3f3074411f4.css">
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-13132274-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main>
+
+    <aside class="menu fixed">
+      <nav role="navigation">
+        <h2 class="brand">
+  <a href="https://shaform.com/csdream">資夢</a>
+</h2>
+        
+
+        
+          <ul>
+<li><p><strong>開始</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/goal/">尋找目標</a></li>
+<li><a href="/csdream/docs/search/">搜尋資源</a></li>
+<li><a href="/csdream/docs/friends/">認識同好</a></li>
+<li><a href="/csdream/docs/books/">取得書籍</a></li>
+<li><a href="/csdream/docs/english/">學習英文</a></li>
+</ul></li>
+
+<li><p><strong>課題</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/learn-prog-lang/">學習程式語言</a></li>
+<li><a href="/csdream/docs/problem-solving/">練習程式解題</a></li>
+<li><a href="/csdream/docs/basic/">累積基礎知識</a></li>
+<li><a href="/csdream/docs/tools/">使用開發工具</a></li>
+<li><a href="/csdream/docs/health/">維持身體健康</a></li>
+</ul></li>
+
+<li><p><strong>前方的道路</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/nonprofit/">參與公益行動</a></li>
+<li><a href="/csdream/docs/open-source/">參與開放原始碼專案</a></li>
+<li><a href="/csdream/docs/startup/">創業</a></li>
+<li><a href="/csdream/docs/software-engineer/">當個軟體工程師</a></li>
+<li><a href="/csdream/docs/cs-degree/">讀資工系</a></li>
+</ul></li>
+
+<li><p><strong>附錄：資源</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/ocw/">資工系開放式課程資源</a></li>
+<li><a href="/csdream/docs/nctu-opportunities/">交大資工相關獎學金、競賽、工讀與實習機會</a></li>
+</ul></li>
+
+<li><p><strong>附錄：資工課程</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/asm/">組合語言與系統程式</a></li>
+<li><a href="/csdream/docs/dlab/">數位電路實驗</a></li>
+<li><a href="/csdream/docs/intro-to-cs-and-prog/">計算機概論與程式設計</a></li>
+<li><a href="/csdream/docs/discrete-math/">離散數學</a></li>
+<li><a href="/csdream/docs/fl/">正規語言概論</a></li>
+<li><a href="/csdream/docs/intro-to-crypto/">密碼學概論</a></li>
+<li><a href="/csdream/docs/micro/">微處理機系統實驗</a></li>
+<li><a href="/csdream/docs/prog-lang/">程式語言</a></li>
+<li><a href="/csdream/docs/cs-project/">資訊工程專題</a></li>
+</ul></li>
+
+<li><p><a href="https://github.com/shaform/csdream"><strong>Fork on Github</strong></a></p></li>
+</ul>
+
+        
+
+        
+      </nav>
+    </aside>
+
+    <div class="content">
+      <header>
+        <label for="menu-control">
+  <img src="https://shaform.com/csdream/svg/menu.svg" />
+</label>
+<strong>程式語言</strong>
+
+      </header>
+      <article class="markdown">
+
+<h1 id="程式語言">程式語言</h1>
+
+<h2 id="前言">前言</h2>
+
+<p>程式語言是<a href="http://www.cs.nctu.edu.tw/">交大資工</a>大二的<a href="http://www.cs.nctu.edu.tw/cswebsite/education/undergraduate/course#course_ruleu">必修課程</a>(自101學年後已非必修)，使用的課本為《<a href="http://www.amazon.com/Concepts-Programming-Languages-Robert-Sebesta/dp/0131395319/ref=dp_ob_title_bk" title="Concepts of Programming Languages">Concepts of Programming Languages</a>》。在這堂課中，會概略討論程式語言設計的原則，並簡單介紹<a href="http://en.wikipedia.org/wiki/History_of_programming_languages">程式語言發展的歷史</a>以及設計<a href="http://en.wikipedia.org/wiki/Programming_language">程式語言</a>的原理，包含語言的語法以及各種程式結構與特性的實做方式等等。值得注意的是這堂課並非學習使用程式語言的入門課程，而是探討程式語言背後的設計原理。而學生若先擁有寫程式的經驗也能對課程擁有較好的理解。</p>
+
+<h2 id="課程內容">課程內容</h2>
+
+<p>課程主題主要可分為三個大項，第一是語言的格式和語法。例如敘述語言 <a href="http://en.wikipedia.org/wiki/Syntax_%28programming_languages%29">Syntax</a> 的 <a href="http://en.wikipedia.org/wiki/Context-free_grammar">Context-free grammar</a>、<a href="http://en.wikipedia.org/wiki/Backus-Naur_Form" title="BNF">BNF</a>，還有用分析算術運算式為例子介紹 <a href="http://en.wikipedia.org/wiki/Lexical_analysis" title="Lexical Analysis">Lexical Analysis</a> 和 <a href="http://en.wikipedia.org/wiki/Parsing">Parsing</a> 等概念。這部份在<a href="/csdream/docs/fl/">正規語言概論</a>和編譯器設計概論課程中也會再次提到。</p>
+
+<p>第二則是根據設計程式語言時會遇到的幾項課題，比較各種不同設計的優缺點、實做的方法，以及提一些實際語言的例子。</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Variable_%28computer_science%29">Variable</a>, 包含命名、<a href="http://en.wikipedia.org/wiki/Scope_%28computer_science%29">範圍</a>等等。</li>
+<li><a href="http://en.wikipedia.org/wiki/Data_type">Data type</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Expression_%28programming%29">Expression</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Control_flow">Control flow</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Subroutine">Subroutine</a>, 參數傳遞、<a href="http://en.wikipedia.org/wiki/Call_stack">Call stack</a> 等等。</li>
+<li><a href="http://en.wikipedia.org/wiki/Abstract_data_type">Abstract data type</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Concurrency_%28computer_science%29">Concurrency</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Exception_handling">Exception</a></li>
+</ul>
+
+<p>最後則是介紹程式語言的幾種<a href="http://en.wikipedia.org/wiki/Comparison_of_programming_paradigms">不同設計哲學</a>：</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Imperative_programming">Imperative programming</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Object-oriented_programming">Object-oriented programming</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Functional_programming">Functional programming</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Logic_programming">Logic programming</a></li>
+</ul>
+
+<h2 id="程式語言-1">程式語言</h2>
+
+<p>許多語言設計的精神如 functional languages，和常用的程式語言有很大不同。若能實際嘗試使用語言，常能獲得較深的理解，所以有些老師也會讓學生實際學習使用其中的一兩種語言，以下便條列幾個較知名的程式語言：</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a>：十分易學且易讀的程式語言，同時也受到廣泛運用。除了擁有 imperative 和 object-oriented 的特性之外，也有一些 functional programming 功能。網路上的教學資源非常的多，如：<a href="http://docs.python.org/py3k/tutorial/" title="The Python Tutorial">The Python Tutorial</a>、<a href="http://www.ez2learn.com/index.php/python-tutorials">Python 教學</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Java_%28programming_language%29">Java</a>：廣受使用的 objecti-oriented 語言，可參考 <a href="http://docs.oracle.com/javase/tutorial/">The Java Tutorials</a>、書籍推薦<a href="http://shop.oreilly.com/product/9780596009205.do">《Head First Java》</a>。</li>
+<li><a href="http://en.wikipedia.org/wiki/Haskell_%28programming_language%29">Haskell</a>：純粹的 functional programming language，可參考 <a href="http://www.haskell.org/haskellwiki/Introduction">Haskell Introduction</a> 的介紹。網路上也有優質的學習資源：<a href="http://learnyouahaskell.com/">Learn You a Haskell</a>。</li>
+<li><a href="http://en.wikipedia.org/wiki/Prolog">Prolog</a>：相當知名的 logic programming language。</li>
+<li><a href="http://en.wikipedia.org/wiki/C%2B%2B">C/C++</a>：在交大資工課程中最常使用的語言。</li>
+</ul>
+
+<h2 id="參考">參考</h2>
+
+<ul>
+<li><a href="http://www.cs.sfu.ca/~cameron/Teaching/383/WhyStudy.html">Why Study Programming Languages?</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Measuring_programming_language_popularity">Measuring programming language popularity</a></li>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-821-programming-languages-fall-2002">Programming Languages</a></li>
+<li><a href="http://webcast.berkeley.edu/playlist#c,d,Computer_Science,03D59E2ECDDA66DF">Programming Languages and Compilers</a></li>
+</ul>
+</article>
+    </div>
+
+    
+    
+    <aside class="toc fixed">
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#程式語言">程式語言</a>
+<ul>
+<li><a href="#前言">前言</a></li>
+<li><a href="#課程內容">課程內容</a></li>
+<li><a href="#程式語言-1">程式語言</a></li>
+<li><a href="#參考">參考</a></li>
+</ul></li>
+</ul>
+</nav>
+    </aside>
+    
+
+  </main>
+  
+
+</body>
+
+</html>

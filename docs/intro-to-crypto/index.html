@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>密碼學概論 | 資夢</title>
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="/csdream/normalize.min.css">
+
+
+<link rel="stylesheet" href="/csdream/book.min.0c58b5a1c698b51e6e0389f0824d973b073abaabb4e052411804f3f3074411f4.css">
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-13132274-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main>
+
+    <aside class="menu fixed">
+      <nav role="navigation">
+        <h2 class="brand">
+  <a href="https://shaform.com/csdream">資夢</a>
+</h2>
+        
+
+        
+          <ul>
+<li><p><strong>開始</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/goal/">尋找目標</a></li>
+<li><a href="/csdream/docs/search/">搜尋資源</a></li>
+<li><a href="/csdream/docs/friends/">認識同好</a></li>
+<li><a href="/csdream/docs/books/">取得書籍</a></li>
+<li><a href="/csdream/docs/english/">學習英文</a></li>
+</ul></li>
+
+<li><p><strong>課題</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/learn-prog-lang/">學習程式語言</a></li>
+<li><a href="/csdream/docs/problem-solving/">練習程式解題</a></li>
+<li><a href="/csdream/docs/basic/">累積基礎知識</a></li>
+<li><a href="/csdream/docs/tools/">使用開發工具</a></li>
+<li><a href="/csdream/docs/health/">維持身體健康</a></li>
+</ul></li>
+
+<li><p><strong>前方的道路</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/nonprofit/">參與公益行動</a></li>
+<li><a href="/csdream/docs/open-source/">參與開放原始碼專案</a></li>
+<li><a href="/csdream/docs/startup/">創業</a></li>
+<li><a href="/csdream/docs/software-engineer/">當個軟體工程師</a></li>
+<li><a href="/csdream/docs/cs-degree/">讀資工系</a></li>
+</ul></li>
+
+<li><p><strong>附錄：資源</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/ocw/">資工系開放式課程資源</a></li>
+<li><a href="/csdream/docs/nctu-opportunities/">交大資工相關獎學金、競賽、工讀與實習機會</a></li>
+</ul></li>
+
+<li><p><strong>附錄：資工課程</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/asm/">組合語言與系統程式</a></li>
+<li><a href="/csdream/docs/dlab/">數位電路實驗</a></li>
+<li><a href="/csdream/docs/intro-to-cs-and-prog/">計算機概論與程式設計</a></li>
+<li><a href="/csdream/docs/discrete-math/">離散數學</a></li>
+<li><a href="/csdream/docs/fl/">正規語言概論</a></li>
+<li><a href="/csdream/docs/intro-to-crypto/">密碼學概論</a></li>
+<li><a href="/csdream/docs/micro/">微處理機系統實驗</a></li>
+<li><a href="/csdream/docs/prog-lang/">程式語言</a></li>
+<li><a href="/csdream/docs/cs-project/">資訊工程專題</a></li>
+</ul></li>
+
+<li><p><a href="https://github.com/shaform/csdream"><strong>Fork on Github</strong></a></p></li>
+</ul>
+
+        
+
+        
+      </nav>
+    </aside>
+
+    <div class="content">
+      <header>
+        <label for="menu-control">
+  <img src="https://shaform.com/csdream/svg/menu.svg" />
+</label>
+<strong>密碼學概論</strong>
+
+      </header>
+      <article class="markdown">
+
+<h1 id="密碼學概論">密碼學概論</h1>
+
+<h2 id="前言">前言</h2>
+
+<p>密碼學概論是<a href="http://www.cs.nctu.edu.tw/">交大資工</a>大三的<a href="http://www.cs.nctu.edu.tw/cswebsite/education/undergraduate/course#course_ruleu">課程</a>，課程的主題，<a href="http://en.wikipedia.org/wiki/Cryptography">Cryptography</a>，旨在探討加密背後的數學原理，如何在第三方可以攔截或假造訊息的情況下，加密訊息以保證僅有信任的人可以得知真正的內容。也會討論延伸的議題如 <a href="http://en.wikipedia.org/wiki/Digital_signature">digital signature</a>, <a href="http://en.wikipedia.org/wiki/Secret_sharing">secret sharing</a> 等等。歷年來使用的課本不一，筆者建議可以從《<a href="http://www.anobii.com/books/An_introduction_to_mathematical_cryptography/9780387779935/01d1f0ac2e6bef0a67/" title="An Introduction to Mathematical Cryptography">An Introduction to Mathematical Cryptography</a>》開始讀起，也可參考：〈<a href="http://en.wikipedia.org/wiki/Books_on_cryptography">Books on Cryptography</a>〉。一部分使用的數學工具如<a href="http://en.wikipedia.org/wiki/Chinese_remainder_theorem">中國餘式定理</a>等等在〈<a href="/csdream/docs/discrete-math/">離散數學</a>〉已有提及。</p>
+
+<h2 id="簡介">簡介</h2>
+
+<p>這堂課一開始會先簡介古典的各種加密法如<a href="http://en.wikipedia.org/wiki/Substitution_cipher">字母代換</a>，並說明為何這種加密法可以透過簡單的分析破解。接下來，開始建立基本的數學基礎，包含：</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Modular_arithmetic">Modular Arithmetic</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Finite_field">Finite field</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Chinese_remainder_theorem">Chinese Remainder Theorem</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Legendre_symbol">Legendre symbol</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Jacobi_symbol">Jacobi symbol</a></li>
+</ul>
+
+<p>接下來，便從基本的 <a href="http://en.wikipedia.org/wiki/Symmetric_key_algorithm">Symmetric-key algorithm</a> 概念開始講起，在此種加密法中，訊息的發送者與接受者使用同一把密鑰來加密與解密，其他人若沒有此鑰匙，便無法輕易解出內容。</p>
+
+<p>除了介紹 <a href="http://en.wikipedia.org/wiki/Stream_cipher">stream ciphers</a>, <a href="http://en.wikipedia.org/wiki/Block_ciphers">block ciphers</a> 等兩種主要分類外，也會介紹幾種目前常見的加密法：<a href="http://en.wikipedia.org/wiki/Data_Encryption_Standard">DES</a>, <a href="http://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a>。</p>
+
+<p>然而，此類加密法衍生出一個問題：如果無法安全的傳遞訊息，那麼那把共享的密鑰，一開始究竟要如何交給你要傳送訊息的對象呢？以此問題為開端，延伸出了一個新的概念：<a href="http://en.wikipedia.org/wiki/Public-key_cryptography">Public-key cryptography</a>，在此類加密法中，人們通常可以透過一個公開的公鑰加密訊息，可是這加密的訊息卻只有透過與公鑰相對應的私鑰才能解開。所以只要公佈你的公鑰卻保留妳的私鑰，則任何人都可以加密，但卻只有妳可以解密。其中最著名的例子或許就是 <a href="http://en.wikipedia.org/wiki/RSA_%28algorithm%29">RSA</a>。</p>
+
+<p>即使在加密法、解密法和公鑰都已知的情況下，攻擊者仍無法輕易的解出私鑰或者加密的內容，這樣特別的數學性質，便是接下來討論的重點。</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Factorization">Factorization</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Primality_test">Primality test</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Discrete_logarithms">Discrete logarithm</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Hash_function">Hash function</a></li>
+</ul>
+
+<p>最後還有碰觸到許多延伸課題：</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Digital_signature">Digital signature</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Blind_signature">Blind signature</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Pairing-based_cryptography">Pairing-based cryptography</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Elliptic_curve_cryptography">Elliptic curve cryptography</a></li>
+</ul>
+
+<h2 id="其他">其他</h2>
+
+<p>在這堂課裡，也會自己實做各種加密法的程式。筆者將實做 <a href="http://en.wikipedia.org/wiki/RC4">RC4</a> 及 <a href="http://en.wikipedia.org/wiki/SHA-1">SHA-1</a> 的程式碼放在 <a href="https://github.com/shaform/nctu-crypto-100">@nctu-crypto-100</a>，可供參考。</p>
+
+<h2 id="參考">參考</h2>
+
+<ul>
+<li><a href="http://en.wikibooks.org/wiki/Cryptography">Cryptography</a></li>
+<li><a href="http://www.cs.bris.ac.uk/~nigel/Crypto_Book/">Cryptography, An Introduction</a></li>
+</ul>
+</article>
+    </div>
+
+    
+    
+    <aside class="toc fixed">
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#密碼學概論">密碼學概論</a>
+<ul>
+<li><a href="#前言">前言</a></li>
+<li><a href="#簡介">簡介</a></li>
+<li><a href="#其他">其他</a></li>
+<li><a href="#參考">參考</a></li>
+</ul></li>
+</ul>
+</nav>
+    </aside>
+    
+
+  </main>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>組合語言與系統程式 | 資夢</title>
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="/csdream/normalize.min.css">
+
+
+<link rel="stylesheet" href="/csdream/book.min.0c58b5a1c698b51e6e0389f0824d973b073abaabb4e052411804f3f3074411f4.css">
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-13132274-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main>
+
+    <aside class="menu fixed">
+      <nav role="navigation">
+        <h2 class="brand">
+  <a href="https://shaform.com/csdream">資夢</a>
+</h2>
+        
+
+        
+          <ul>
+<li><p><strong>開始</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/goal/">尋找目標</a></li>
+<li><a href="/csdream/docs/search/">搜尋資源</a></li>
+<li><a href="/csdream/docs/friends/">認識同好</a></li>
+<li><a href="/csdream/docs/books/">取得書籍</a></li>
+<li><a href="/csdream/docs/english/">學習英文</a></li>
+</ul></li>
+
+<li><p><strong>課題</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/learn-prog-lang/">學習程式語言</a></li>
+<li><a href="/csdream/docs/problem-solving/">練習程式解題</a></li>
+<li><a href="/csdream/docs/basic/">累積基礎知識</a></li>
+<li><a href="/csdream/docs/tools/">使用開發工具</a></li>
+<li><a href="/csdream/docs/health/">維持身體健康</a></li>
+</ul></li>
+
+<li><p><strong>前方的道路</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/nonprofit/">參與公益行動</a></li>
+<li><a href="/csdream/docs/open-source/">參與開放原始碼專案</a></li>
+<li><a href="/csdream/docs/startup/">創業</a></li>
+<li><a href="/csdream/docs/software-engineer/">當個軟體工程師</a></li>
+<li><a href="/csdream/docs/cs-degree/">讀資工系</a></li>
+</ul></li>
+
+<li><p><strong>附錄：資源</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/ocw/">資工系開放式課程資源</a></li>
+<li><a href="/csdream/docs/nctu-opportunities/">交大資工相關獎學金、競賽、工讀與實習機會</a></li>
+</ul></li>
+
+<li><p><strong>附錄：資工課程</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/asm/">組合語言與系統程式</a></li>
+<li><a href="/csdream/docs/dlab/">數位電路實驗</a></li>
+<li><a href="/csdream/docs/intro-to-cs-and-prog/">計算機概論與程式設計</a></li>
+<li><a href="/csdream/docs/discrete-math/">離散數學</a></li>
+<li><a href="/csdream/docs/fl/">正規語言概論</a></li>
+<li><a href="/csdream/docs/intro-to-crypto/">密碼學概論</a></li>
+<li><a href="/csdream/docs/micro/">微處理機系統實驗</a></li>
+<li><a href="/csdream/docs/prog-lang/">程式語言</a></li>
+<li><a href="/csdream/docs/cs-project/">資訊工程專題</a></li>
+</ul></li>
+
+<li><p><a href="https://github.com/shaform/csdream"><strong>Fork on Github</strong></a></p></li>
+</ul>
+
+        
+
+        
+      </nav>
+    </aside>
+
+    <div class="content">
+      <header>
+        <label for="menu-control">
+  <img src="https://shaform.com/csdream/svg/menu.svg" />
+</label>
+<strong>組合語言與系統程式</strong>
+
+      </header>
+      <article class="markdown">
+
+<h1 id="組合語言與系統程式">組合語言與系統程式</h1>
+
+<h2 id="前言">前言</h2>
+
+<p>組合語言與系統程式是<a href="http://www.cs.nctu.edu.tw/">交大資工</a>大二的<a href="http://www.cs.nctu.edu.tw/cswebsite/education/undergraduate/course#course_rule">必修課程</a>，使用的課本有兩本：</p>
+
+<ul>
+<li>《<a href="http://asmirvine.com/asm/" title="Assembly Language for x86 Processors">Assembly Language for x86 Processors</a>》</li>
+<li>《<a href="http://www.anobii.com/books/System_Software/9780201423006/01cf8efdb5f9826394" title="An Introduction to Systems Programming">An Introduction to Systems Programming</a>》</li>
+</ul>
+
+<p><a href="http://en.wikipedia.org/wiki/Assembly_language" title="Assembly Language">組合語言</a>部份一開始是簡介 x86 電腦的基礎架構，然後就是學習組合語言的撰寫。組合語言和機器語言有直接對應的關係，是非常基層的程式語言。</p>
+
+<p>系統程式的重心主要放在<a href="http://en.wikipedia.org/wiki/Assembly_language#Assembler">組譯器</a>上，以書中提出的簡易 <a href="http://en.wikipedia.org/wiki/Simplified_instructional_computer">SIC</a> 組合語言為例，解釋組譯器如何將組合語言翻譯成可執行的機器語言，也有可能教到 <a href="http://en.wikipedia.org/wiki/Linker_%28computing%29">Linker</a> 和 <a href="http://en.wikipedia.org/wiki/Loader_%28computing%29">Loader</a>。</p>
+
+<h2 id="學習資源">學習資源</h2>
+
+<p>這門課所使用的組語教科書在每章背後都有程式練習題，建議自修時可以一題一題的寫，一定會收穫良多。系統程式雖然教的是普遍的概念，但是所使用的 SIC 架構是《An Introduction to Systems Programming》這本書提出的，所以最好能直接看教科書，筆者在修這堂課時寫了一個簡易的 SIC/XE 組譯器，認為實做確實能加深對課本的理解。</p>
+
+<p>組語的學習資源還可以參考</p>
+
+<ul>
+<li><a href="http://en.wikibooks.org/wiki/X86_Assembly">x86 Assembly</a></li>
+<li><a href="http://home.educities.edu.tw/wanker742126/" title="小木偶的網頁">小木偶的網頁</a></li>
+<li><a href="http://www.drpaulcarter.com/pcasm/">PC Assembly</a> (NASM 格式)</li>
+</ul>
+
+<p>這門課的組譯器主要是使用 <a href="http://en.wikipedia.org/wiki/Microsoft_Macro_Assembler">MASM</a>，由於不同組譯器有不同格式的寫法，若想為這門課做準備，得稍微注意，建議直接買課本來看。但 <a href="http://en.wikipedia.org/wiki/X86_instruction_listings">x86 的指令集</a>是通用的。</p>
+
+<p>為了學習的方便，一些像是印出字元的函式皆由書中搭配的函式庫 <a href="http://asmirvine.com/asm/examples/index.htm">Irvine</a> 提供，詳細的設置方法以及下載處可<a href="http://asmirvine.com/asm/" title="Assembly Language for x86 Processors, 6th edition">至作者網站查詢</a>。</p>
+
+<h2 id="環境設定">環境設定</h2>
+
+<p>作者的環境設定法是使用 <a href="http://en.wikipedia.org/wiki/Visual_Studio">Microsoft Visual Studio</a>，使用專業版或可免費下載的<a href="http://www.microsoft.com/express">簡易版</a>皆可，若你是交大的學生，可參考<a href="http://ca.nctu.edu.tw/">國立交通大學校園授權軟體服務網</a>取得專業版下載。</p>
+
+<p>即使你不想使用 Visual Studio 來撰寫組語，安裝它仍是取得 MASM 最方便的方法，以下提供一個簡易的組譯環境設置法：</p>
+
+<ol>
+<li>安裝 Visual Studio。</li>
+<li>下載並安裝對應的 <a href="http://asmirvine.com/asm/examples/index.htm">Irvine 函式庫及工具</a>。</li>
+<li>下載 <a href="http://asmirvine.com/asm/gettingStartedVS2010/BatchSampleVS2010.zip">Batch Sample</a> 並將 asm32.bat 放入 Irvine 安裝路徑（如 C:\Irvine）。</li>
+</ol>
+
+<p>現在，假設你把 Irvine 安裝在 C:\Irvine，而你的組語檔案為 C:\ASM\hello.asm。</p>
+
+<p>執行 <a href="http://en.wikipedia.org/wiki/Command_Prompt">cmd</a> 並<a href="http://ss64.com/nt/cd.html">切換到 C:\ASM 目錄</a>，然後執行 C:\Irvine\asm32.bat hello。（注意組譯時不輸入 .asm 副檔名。）</p>
+
+<p>asm32.bat 會自動用 Visual Studio 內附的 MASM 幫妳把當前資料夾裡的 hello.asm 組譯成 hello.exe。</p>
+
+<p>若要組譯 16-bit DOS exe 則改用 C:\Irvine\make16.bat。</p>
+
+<p>若發生任何錯誤有可能是你安裝的路徑和它預設的不同，此時找到 asm32.bat 和 make16.bat 檔並開啟編輯，分別找到以下路徑，並變更為你 VS 的正確路徑。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">// for asm32.bat
+<span style="color:#66d9ef">set</span> VS_HOME=C:\Program<span style="color:#75715e"> Files\Microsoft Visual Studio 10.0</span>
+
+// for make16.bat
+<span style="color:#66d9ef">SET</span> MASM=<span style="color:#e6db74">&#34;C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\&#34;</span></code></pre></div>
+<p>或者是你 Irvine 安裝路徑不同，此時找到任何有提到 Irvine 的路徑，並變更它們。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">// for asm32.bat
+<span style="color:#66d9ef">set</span> INCLUDE=C:\Irvine<span style="color:#75715e">;%INCLUDE%</span>
+<span style="color:#66d9ef">set</span> LIB=%VS_HOME%\VC\LIB;C:\Irvine<span style="color:#75715e">;%LIB%</span>
+
+// for make16.bat
+<span style="color:#66d9ef">SET</span> INCLUDE=C:\Irvine
+<span style="color:#66d9ef">SET</span> LIB=C:\Irvine
+c:\Irvine\LINK16<span style="color:#75715e"> %1,,NUL,Irvine16 /CODEVIEW;</span></code></pre></div>
+<p>若你有機會要組譯 16-bit COM 程式，則複製一份 make16.bat，更名為 makecom.bat 之類。然後在 LINK16 那行加入 /T，如下所示：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">c:\Irvine\LINK16<span style="color:#75715e"> %1,,NUL,Irvine16 /T /CODEVIEW;</span></code></pre></div>
+<p>假設你不想安裝 Visual Studio，參考<a href="http://home.educities.edu.tw/wanker742126/win32asm/w32asm_ch00.html">小木偶的網頁</a>，可以下載 <a href="http://www.movsd.com/masmdl.htm">MASM32 安裝包</a>。
+同樣下載 Irvine 等檔案並安裝，此時需變動以下部份：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">// for asm32.bat
+// 改為 masm32 之路徑
+<span style="color:#66d9ef">set</span> VS_HOME=C:\masm32
+// 改為 masm32 的資料夾架構
+<span style="color:#66d9ef">set</span> PATH=%VS_HOME%\bin;%PATH%
+<span style="color:#66d9ef">set</span> LIB=%VS_HOME%\lib;C:\Irvine<span style="color:#75715e">;%LIB%</span>
+// 改為 masm32 接受的參數
+<span style="color:#66d9ef">for</span> <span style="color:#ae81ff">%%</span>F <span style="color:#66d9ef">in</span> (%1 %2 %3 %4 %5) <span style="color:#66d9ef">do</span> ml /c /coff <span style="color:#ae81ff">%%</span>F.asm
+// 刪除 /DEBUG
+<span style="color:#66d9ef">SET</span> LINKCMD=link /NOLOGO  /SUBSYSTEM:CONSOLE irvine32.lib kernel32.lib user32.lib
+
+// for make16.bat
+// 去掉 <span style="color:#e6db74">&#34;&#34;</span> 並改為 masm32 之路徑
+<span style="color:#66d9ef">SET</span> MASM=C:\masm32\bin\
+// 把 -c -omf 等等都改為 /c /omf
+%MASM%ML /nologo /c /omf /Fl /Zi %1.asm</code></pre></div>
+<p>如此一來，即可透過指令組譯程式，編輯 asm 檔則可使用任意編輯器，以 <a href="http://www.vim.org/">Vim</a> 為例：</p>
+
+<h3 id="vim-設定">Vim 設定</h3>
+
+<p>在 vimrc 檔案中加入以下設定可使 Vim 自動偵測 MASM 格式的 asm 檔並給予適當的原始碼上色。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vimrc" data-lang="vimrc"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">filetype_asm</span> =<span style="color:#75715e"> &#34;asm&#34;</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">asmsyntax</span> =<span style="color:#75715e"> &#34;masm&#34;</span></code></pre></div>
+<p>在你寫的 asm 檔的最後一行加入以下這行可以強制 Vim 用空白代替 Tab，避免組合語言的對齊問題。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vimrc" data-lang="vimrc">; <span style="color:#a6e22e">vim</span>: <span style="color:#a6e22e">set</span> <span style="color:#a6e22e">et</span>:</code></pre></div>
+<h2 id="小提醒">小提醒</h2>
+
+<p>這門課一定要做多一點的練習，而不要只是看課本，這樣子進步才快。
+若您的老師的期末 Project 也是組譯器的撰寫，建議可以從開學就開始動手，一方面可以搭配研讀系統程式的課本，二方面也能避免期末的作業量太大和期末考的緊湊。</p>
+
+<h2 id="參考練習題">參考練習題</h2>
+
+<p>寫組語程式達成：</p>
+
+<ol>
+<li>輸入兩個 32-bit 正整數，輸出其最小公倍數。</li>
+<li>輸入一個正整數，判斷它是否為質數。</li>
+<li>輸入兩個正整數，輸出他們的和（用 BCD 做內部表示及運算。）</li>
+</ol>
+
+<h2 id="參考">參考</h2>
+
+<ul>
+<li><a href="http://www.unf.edu/~cwinton/html/cop3601/s10/3601menu.html">Introduction to Systems Software</a></li>
+<li><a href="http://www.jegerlehner.ch/intel/">Intel Assembler 80x86 CodeTable</a></li>
+<li><a href="http://www.amazon.com/Professional-Assembly-Language-Programmer/dp/0764579010/">Professional Assembly Language</a> (Linux 平台)</li>
+<li><a href="http://homepage.mac.com/randyhyde/webster.cs.ucr.edu/index.html" title="The Art of Assembly Language Programming">The Art of Assembly Language Programming</a> (使用 <a href="http://en.wikipedia.org/wiki/High_Level_Assembly">HLA</a>)</li>
+</ul>
+</article>
+    </div>
+
+    
+    
+    <aside class="toc fixed">
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#組合語言與系統程式">組合語言與系統程式</a>
+<ul>
+<li><a href="#前言">前言</a></li>
+<li><a href="#學習資源">學習資源</a></li>
+<li><a href="#環境設定">環境設定</a>
+<ul>
+<li><a href="#vim-設定">Vim 設定</a></li>
+</ul></li>
+<li><a href="#小提醒">小提醒</a></li>
+<li><a href="#參考練習題">參考練習題</a></li>
+<li><a href="#參考">參考</a></li>
+</ul></li>
+</ul>
+</nav>
+    </aside>
+    
+
+  </main>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>數位電路實驗 | 資夢</title>
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="/csdream/normalize.min.css">
+
+
+<link rel="stylesheet" href="/csdream/book.min.0c58b5a1c698b51e6e0389f0824d973b073abaabb4e052411804f3f3074411f4.css">
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-13132274-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main>
+
+    <aside class="menu fixed">
+      <nav role="navigation">
+        <h2 class="brand">
+  <a href="https://shaform.com/csdream">資夢</a>
+</h2>
+        
+
+        
+          <ul>
+<li><p><strong>開始</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/goal/">尋找目標</a></li>
+<li><a href="/csdream/docs/search/">搜尋資源</a></li>
+<li><a href="/csdream/docs/friends/">認識同好</a></li>
+<li><a href="/csdream/docs/books/">取得書籍</a></li>
+<li><a href="/csdream/docs/english/">學習英文</a></li>
+</ul></li>
+
+<li><p><strong>課題</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/learn-prog-lang/">學習程式語言</a></li>
+<li><a href="/csdream/docs/problem-solving/">練習程式解題</a></li>
+<li><a href="/csdream/docs/basic/">累積基礎知識</a></li>
+<li><a href="/csdream/docs/tools/">使用開發工具</a></li>
+<li><a href="/csdream/docs/health/">維持身體健康</a></li>
+</ul></li>
+
+<li><p><strong>前方的道路</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/nonprofit/">參與公益行動</a></li>
+<li><a href="/csdream/docs/open-source/">參與開放原始碼專案</a></li>
+<li><a href="/csdream/docs/startup/">創業</a></li>
+<li><a href="/csdream/docs/software-engineer/">當個軟體工程師</a></li>
+<li><a href="/csdream/docs/cs-degree/">讀資工系</a></li>
+</ul></li>
+
+<li><p><strong>附錄：資源</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/ocw/">資工系開放式課程資源</a></li>
+<li><a href="/csdream/docs/nctu-opportunities/">交大資工相關獎學金、競賽、工讀與實習機會</a></li>
+</ul></li>
+
+<li><p><strong>附錄：資工課程</strong></p>
+
+<ul>
+<li><a href="/csdream/docs/asm/">組合語言與系統程式</a></li>
+<li><a href="/csdream/docs/dlab/">數位電路實驗</a></li>
+<li><a href="/csdream/docs/intro-to-cs-and-prog/">計算機概論與程式設計</a></li>
+<li><a href="/csdream/docs/discrete-math/">離散數學</a></li>
+<li><a href="/csdream/docs/fl/">正規語言概論</a></li>
+<li><a href="/csdream/docs/intro-to-crypto/">密碼學概論</a></li>
+<li><a href="/csdream/docs/micro/">微處理機系統實驗</a></li>
+<li><a href="/csdream/docs/prog-lang/">程式語言</a></li>
+<li><a href="/csdream/docs/cs-project/">資訊工程專題</a></li>
+</ul></li>
+
+<li><p><a href="https://github.com/shaform/csdream"><strong>Fork on Github</strong></a></p></li>
+</ul>
+
+        
+
+        
+      </nav>
+    </aside>
+
+    <div class="content">
+      <header>
+        <label for="menu-control">
+  <img src="https://shaform.com/csdream/svg/menu.svg" />
+</label>
+<strong>數位電路實驗</strong>
+
+      </header>
+      <article class="markdown">
+
+<h1 id="數位電路實驗">數位電路實驗</h1>
+
+<h2 id="前言">前言</h2>
+
+<p>數位電路實驗是<a href="http://www.cs.nctu.edu.tw/">交大資工</a>大二下的<a href="http://www.cs.nctu.edu.tw/cswebsite/education/undergraduate/course#course_rule">必修課程</a>，接續大二上的數位電路設計，這門課是教如何利用 <a href="http://en.wikipedia.org/wiki/Verilog">Verilog</a> 硬體描述語言來設計數位電路。語言本身並不複雜，和 <a href="http://en.wikipedia.org/wiki/C_%28programming_language%29">C</a> 也非常類似，主要會用到的部分很快就會學完。在數位電路設計課程使用的<a href="http://www.anobii.com/books/Digital_Design/9780132340434/013c5a4c0df5bce483/">《Digital Design》</a>一書中便有硬體描述語言的章節，其中有許多不錯的習題可供練習。此外，十分推薦<a href="http://www.anobii.com/books/Verilog_HDL/9780130449115/015bc4a19e58045815/">《Verilog HDL》</a>這本書，對 Verilog 語言有非常清楚的講解。要小心注意的是，Verilog 是用來<a href="http://en.wikipedia.org/wiki/Hardware_description_language">描述硬體的語言</a>，有些寫法，雖然語義沒問題，但卻無法合成為實際的電路，或者是會因為訊號輸入不穩還是訊號延遲而產生奇怪的問題，Verilog 並非程式語言，這是數位電路實驗這門課裡最需注意的部份。若想對 Verilog 合成的議題有更深的了解，可以參考<a href="http://www.anobii.com/books/Verilog_HDL_Synthesis,_A_Practical_Primer/9780965039154/01d7d5de2c00d64b26/">《Verilog HDL Synthesis, A Practical Primer》</a>這本書。此外，<a href="http://www.google.com/search?q=XST%20User%20Guide" title="XST User Guide">XST User Guide</a> 也是合成電路時值得參考的文件。網路上的教學文件可參考：<a href="http://www.asic-world.com/verilog/index.html">WORLD OF ASIC</a>。</p>
+
+<h2 id="環境">環境</h2>
+
+<p>筆者的班是使用 <a href="http://en.wikipedia.org/wiki/Xilinx_ISE">Xilinx ISE</a> 這套工具來模擬和設計電路，可以在官方網站上<a href="http://www.xilinx.com/support/download/">下載這套軟體</a>，還有另一個班是使用 NCVerilog 來<a href="http://en.wikipedia.org/wiki/List_of_Verilog_simulators">跑模擬</a>，不過若要將電路實際合成到 <a href="http://en.wikipedia.org/wiki/Field-programmable_gate_array">FPGA</a> 上時，使用的都是 Xilinx ISE。如果你是使用 <a href="http://en.wikipedia.org/wiki/Linux">Linux</a>，你也可以嘗試使用 <a href="http://iverilog.icarus.com/">Icarus Verilog</a> 來模擬，參考：<a href="http://geekwentfreak.wordpress.com/2009/11/21/icarus-verilog-is-a-verilog-compiler-used-to-simulate-verilog-code-this-post-is-a-getting-started-tutorial-for-verilog-development-on-linux-tools-we-are-going-to-use-iverilog-vvp-gtkview-installa/">Verilog @ Linux using Icarus Verilog</a>。</p>
+
+<p>筆者當年使用的 FPGA 板是 Xilinx XC3S500E FG320，其上有數個開關、LED 燈、還有螢幕 VGA 、滑鼠、鍵盤等接頭。Verilog 模組透過和開發板上接頭的互動，可以讀入鍵盤、滑鼠的輸入，也可以輸出畫面到螢幕上。實驗課所寫的內容包括抽牌比大小的遊戲（用 LED 燈顯示大小）、以及用螢幕顯示的圈圈叉叉和打磚塊遊戲等等。這些輸出入背後的原理可參考<a href="http://www.anobii.com/books/FPGA_Prototyping_Using_Verilog_Examples/9780470185322/01c9fd481ed8540070/">《FPGA Prototyping Using Verilog Examples》</a>，開發板取得不易，若有興趣或可參考<a href="http://gary-digital.blogspot.com/2006/08/xilinx-spartan-3e-starter-kit.html">〈Xilinx Spartan-3E Starter Kit的基本裝備 〉</a>。</p>
+
+<h2 id="小提醒">小提醒</h2>
+
+<p>在書上或老師的投影片上都有講一些<a href="http://www.vlsichipdesign.com/index.php/Chip-Design-Articles/verilog-coding-styles.html">寫 Verilog 的基本原則</a>，有些寫法雖然可能會讓程式碼變長（如：一個 always block 只做一件事），不過往往會讓錯誤比較容易被找出來，以及，更重要的，讓你在寫 Verilog 時比較容易去想像每一個結構合成出來會是什麼樣的電路。</p>
+
+<h2 id="參考練習題">參考練習題</h2>
+
+<p>(注意如果你看不懂下面的名詞，或許該先行研習數位電路設計，參考<a href="http://www.anobii.com/books/Digital_Design/9780132340434/013c5a4c0df5bce483/">《Digital Design》</a>。)</p>
+
+<ol>
+<li>設計一個  2x4 decoder。</li>
+<li>設計一個可以比較兩個 n-bit 輸入的 comparator。</li>
+</ol>
+
+<h2 id="相關連結">相關連結</h2>
+
+<ul>
+<li><a href="http://dspace.mit.edu/bitstream/handle/1721.1/49431/6-111Spring2004/OcwWeb/Electrical-Engineering-and-Computer-Science/6-111Spring2004/CourseHome/index.htm">Introductory Digital Systems Laboratory</a></li>
+<li><a href="http://ocw.nctu.edu.tw/riki_detail.php?pgid=170&amp;amp;cgid=12">數位電路設計</a></li>
+<li><a href="http://model.com/">ModelSim</a></li>
+<li><a href="http://www.fpga4fun.com">fpga4fun</a></li>
+<li><a href="http://www.youtube.com/watch?v=Q7z9dyL34n4">FPGA 教學</a></li>
+</ul>
+
+<h2 id="其他">其他</h2>
+
+<p>筆者當初的期末專題打磚塊遊戲已開放原始碼於 <a href="https://github.com/shaform/ArkanoidOnVerilog">ArkanoidOnVerilog @ github</a>，其中也包含了我們整個修改的歷史。原始碼採 <a href="http://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a> 授權，在不改變授權方式下可自由修改與散布，歡迎參考。</p>
+</article>
+    </div>
+
+    
+    
+    <aside class="toc fixed">
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#數位電路實驗">數位電路實驗</a>
+<ul>
+<li><a href="#前言">前言</a></li>
+<li><a href="#環境">環境</a></li>
+<li><a href="#小提醒">小提醒</a></li>
+<li><a href="#參考練習題">參考練習題</a></li>
+<li><a href="#相關連結">相關連結</a></li>
+<li><a href="#其他">其他</a></li>
+</ul></li>
+</ul>
+</nav>
+    </aside>
+    
+
+  </main>
+  
+
+</body>
+
+</html>
