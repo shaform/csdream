@@ -1,9 +1,0 @@
-{
-  "docs": {
-    "開始": ["goal", "search", "friends", "books", "english"],
-    "課題": ["learn-prog-lang", "problem-solving", "basic", "tools", "health"],
-    "前方的道路": ["nonprofit", "open-source", "startup", "software-engineer", "cs-degree"],
-    "附錄：資源": ["ocw", "nctu-opportunities"],
-    "附錄：資工課程": ["asm", "dlab", "intro-to-cs-and-prog", "discrete-math", "fl", "intro-to-crypto", "micro", "prog-lang", "cs-project"]
-  }
-}
