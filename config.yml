@@ -40,3 +40,7 @@ params:
   # specify section of content to render as menu
   # if bookMenuBundle is not set, 'docs' is value by default
   BookSection: docs
+
+  # Enable "Edit this page" links for 'doc' page type.
+  # Disabled by default. Uncomment to enable.
+  BookEditURL: https://github.com/shaform/csdream/edit/master/content/zh/
