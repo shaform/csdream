@@ -1,117 +1,206 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="zh" dir=>
 
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="離散數學 #  前言 #  離散數學是交大資工大一下的必修課程。離散數學所涵蓋的範圍非常的廣，而正如維基百科所述：「離散數學近幾十年來因為它在電腦科學上的應用備受關注。由於運算對象是離散的，所以電腦科學的數學基礎基本上也是離散的。我們可以說電腦科學的數學語言就是離散數學。」系上使用的教科書是《Discrete Mathematics and Its Applications》，在資工往後的各種數學課程中都可以看到它的影子。一學期的課程中，涵蓋的內容包括邏輯學、集合論、演算法、組合數學、遞迴、數論、圖論、布林代數等等。由於是總括性的課程，很多主題主要是在介紹基本的定義，而不會有太過深入的應用。有些內容也許高中也有提到，但在這門課中會做更嚴謹的推導。
+簡介 #  邏輯學是數學推論證明的基礎，是理解數學的基礎之一，在課程中也會帶到 Mathematical induction 等證明的方法，在其後的數學課程中常會使用，若要深入研究，系上也有數理邏輯的課程可供選修。Sets, Graphs, Functions 這些經常被使用的觀念，也會在這堂課裡教授，其中 Graphs 對新生而言可能較不熟悉，卻是往後課程中大量使用的概念。演算法可說是電腦科學的核心之一，也有自己獨立的一門課程。在離散這堂課裡，會介紹演算法的定義，以及幾種簡單的演算法。遞迴的概念在程式設計中非常常見，而在分析演算法效率時，也會用到解遞迴式的技巧。數論主要會介紹和密碼學有密切相關的部份，像是 Chinese remainder theorem, RSA等等。
+這是一門重定義、理解、以及證明的數學課，相對於實做導向的程式課或者是計算為主的微積分等課程有很大的不同，在學習時應將每個概念與證明完整理解。筆者自己以及許多同學在學習這堂課時，經常對所學感到不踏實，直到後來學習更深入的課程時才了解離散數學基礎的重要。若有時間，可嘗試閱讀延伸課程之教科書，或許能對離散的學習帶來一些幫助。
+參考 #   Mathematics for Computer Science 離散數學 Case Study: How I Got the Highest Grade in my Discrete Math Class UVic Discrete Mathematics Study Guide 《Discrete Mathematics with Applications》 《Discrete and Combinatorial Mathematics: An Applied Introduction》  ">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="離散數學" />
+<meta property="og:description" content="離散數學 #  前言 #  離散數學是交大資工大一下的必修課程。離散數學所涵蓋的範圍非常的廣，而正如維基百科所述：「離散數學近幾十年來因為它在電腦科學上的應用備受關注。由於運算對象是離散的，所以電腦科學的數學基礎基本上也是離散的。我們可以說電腦科學的數學語言就是離散數學。」系上使用的教科書是《Discrete Mathematics and Its Applications》，在資工往後的各種數學課程中都可以看到它的影子。一學期的課程中，涵蓋的內容包括邏輯學、集合論、演算法、組合數學、遞迴、數論、圖論、布林代數等等。由於是總括性的課程，很多主題主要是在介紹基本的定義，而不會有太過深入的應用。有些內容也許高中也有提到，但在這門課中會做更嚴謹的推導。
+簡介 #  邏輯學是數學推論證明的基礎，是理解數學的基礎之一，在課程中也會帶到 Mathematical induction 等證明的方法，在其後的數學課程中常會使用，若要深入研究，系上也有數理邏輯的課程可供選修。Sets, Graphs, Functions 這些經常被使用的觀念，也會在這堂課裡教授，其中 Graphs 對新生而言可能較不熟悉，卻是往後課程中大量使用的概念。演算法可說是電腦科學的核心之一，也有自己獨立的一門課程。在離散這堂課裡，會介紹演算法的定義，以及幾種簡單的演算法。遞迴的概念在程式設計中非常常見，而在分析演算法效率時，也會用到解遞迴式的技巧。數論主要會介紹和密碼學有密切相關的部份，像是 Chinese remainder theorem, RSA等等。
+這是一門重定義、理解、以及證明的數學課，相對於實做導向的程式課或者是計算為主的微積分等課程有很大的不同，在學習時應將每個概念與證明完整理解。筆者自己以及許多同學在學習這堂課時，經常對所學感到不踏實，直到後來學習更深入的課程時才了解離散數學基礎的重要。若有時間，可嘗試閱讀延伸課程之教科書，或許能對離散的學習帶來一些幫助。
+參考 #   Mathematics for Computer Science 離散數學 Case Study: How I Got the Highest Grade in my Discrete Math Class UVic Discrete Mathematics Study Guide 《Discrete Mathematics with Applications》 《Discrete and Combinatorial Mathematics: An Applied Introduction》  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shaform.com/csdream/docs/discrete-math/" /><meta property="article:section" content="docs" />
+
+
+
 <title>離散數學 | 資夢</title>
+<link rel="manifest" href="/csdream/manifest.json">
+<link rel="icon" href="/csdream/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/csdream/book.min.d08be657f4d0d61b509ac06e1059e92fd1c66f15535a6bd4cee27e19935f34ae.css" integrity="sha256-0IvmV/TQ1htQmsBuEFnpL9HGbxVTWmvUzuJ&#43;GZNfNK4=">
+<script defer src="/csdream/zh.search.min.85e918c2e7a9d34a6340ef5a7f12a65aea6b7a034fbd4dcc7680ac50ec3349e9.js" integrity="sha256-hekYwuep00pjQO9afxKmWupregNPvU3MdoCsUOwzSek="></script>
 
-<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
-<link rel="stylesheet" href="https://shaform.com/csdream/normalize.min.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-13132274-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<link rel="stylesheet" href="/csdream/book.min.7c7e3579ff9001374b23eeecab752a36b80edc89f3cb5ddf2f87ca58929dbc62.css">
+  gtag('config', 'UA-13132274-5');
+</script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
   
 </head>
 
-<body>
-  <input type="checkbox" style="display: none" id="menu-control" />
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav role="navigation">
-        <h2 class="book-brand">
-  <a href="https://shaform.com/csdream">資夢</a>
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/csdream"><span>資夢</span>
+  </a>
 </h2>
-        
 
-        
-          <ul>
-<li><p><strong>開始</strong></p>
 
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p><strong>開始</strong></p>
 <ul>
 <li><a href="/csdream/docs/goal/">尋找目標</a></li>
 <li><a href="/csdream/docs/search/">搜尋資源</a></li>
 <li><a href="/csdream/docs/friends/">認識同好</a></li>
 <li><a href="/csdream/docs/books/">取得書籍</a></li>
 <li><a href="/csdream/docs/english/">學習英文</a></li>
-</ul></li>
-
-<li><p><strong>課題</strong></p>
-
+</ul>
+</li>
+<li>
+<p><strong>課題</strong></p>
 <ul>
 <li><a href="/csdream/docs/learn-prog-lang/">學習程式語言</a></li>
 <li><a href="/csdream/docs/problem-solving/">練習程式解題</a></li>
 <li><a href="/csdream/docs/basic/">累積基礎知識</a></li>
 <li><a href="/csdream/docs/tools/">使用開發工具</a></li>
 <li><a href="/csdream/docs/health/">維持身體健康</a></li>
-</ul></li>
-
-<li><p><strong>前方的道路</strong></p>
-
+</ul>
+</li>
+<li>
+<p><strong>前方的道路</strong></p>
 <ul>
 <li><a href="/csdream/docs/nonprofit/">參與公益行動</a></li>
 <li><a href="/csdream/docs/open-source/">參與開放原始碼專案</a></li>
 <li><a href="/csdream/docs/startup/">創業</a></li>
 <li><a href="/csdream/docs/software-engineer/">當個軟體工程師</a></li>
 <li><a href="/csdream/docs/cs-degree/">讀資工系</a></li>
-</ul></li>
-
-<li><p><strong>附錄：資源</strong></p>
-
+</ul>
+</li>
+<li>
+<p><strong>附錄：資源</strong></p>
 <ul>
 <li><a href="/csdream/docs/ocw/">資工系開放式課程資源</a></li>
 <li><a href="/csdream/docs/nctu-opportunities/">交大資工相關獎學金、競賽、工讀與實習機會</a></li>
-</ul></li>
-
-<li><p><strong>附錄：資工課程</strong></p>
-
+</ul>
+</li>
+<li>
+<p><strong>附錄：資工課程</strong></p>
 <ul>
 <li><a href="/csdream/docs/asm/">組合語言與系統程式</a></li>
 <li><a href="/csdream/docs/dlab/">數位電路實驗</a></li>
 <li><a href="/csdream/docs/intro-to-cs-and-prog/">計算機概論與程式設計</a></li>
-<li><a href="/csdream/docs/discrete-math/">離散數學</a></li>
+<li><a href="/csdream/docs/discrete-math/"class=active>離散數學</a></li>
 <li><a href="/csdream/docs/fl/">正規語言概論</a></li>
 <li><a href="/csdream/docs/intro-to-crypto/">密碼學概論</a></li>
 <li><a href="/csdream/docs/micro/">微處理機系統實驗</a></li>
 <li><a href="/csdream/docs/prog-lang/">程式語言</a></li>
 <li><a href="/csdream/docs/cs-project/">資訊工程專題</a></li>
-</ul></li>
-
-<li><p><a href="https://github.com/shaform/csdream"><strong>Fork on Github</strong></a></p></li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/shaform/csdream"><strong>Fork on Github</strong></a></p>
+</li>
 </ul>
 
-        
 
-        
-      </nav>
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
     </aside>
 
     <div class="book-page">
-      <header class="align-center justify-between book-header">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="https://shaform.com/csdream/svg/menu.svg" />
+    <img src="/csdream/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
+
   <strong>離散數學</strong>
-</header>
+
+  <label for="toc-control">
+    
+    <img src="/csdream/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#簡介">簡介</a></li>
+    <li><a href="#參考">參考</a></li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
 
       
-<article class="markdown">
-
-<h1 id="離散數學">離散數學</h1>
-
-<h2 id="前言">前言</h2>
-
+      
+  <article class="markdown"><h1 id="離散數學">
+  離散數學
+  <a class="anchor" href="#%e9%9b%a2%e6%95%a3%e6%95%b8%e5%ad%b8">#</a>
+</h1>
+<h2 id="前言">
+  前言
+  <a class="anchor" href="#%e5%89%8d%e8%a8%80">#</a>
+</h2>
 <p>離散數學是<a href="http://www.cs.nctu.edu.tw/">交大資工</a>大一下的<a href="http://www.cs.nctu.edu.tw/cswebsite/education/undergraduate/course#course_ruleu">必修課程</a>。<a href="http://en.wikipedia.org/wiki/Discrete_mathematics">離散數學</a>所涵蓋的範圍非常的廣，而正如<a href="http://zh.wikipedia.org/zh-tw/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6">維基百科</a>所述：「離散數學近幾十年來因為它在電腦科學上的應用備受關注。由於運算對象是離散的，所以電腦科學的數學基礎基本上也是離散的。我們可以說電腦科學的數學語言就是離散數學。」系上使用的教科書是《<a href="http://www.amazon.com/Discrete-Mathematics-Applications-Kenneth-Rosen/dp/0073229725/">Discrete Mathematics and Its Applications</a>》，在資工往後的各種數學課程中都可以看到它的影子。一學期的課程中，涵蓋的內容包括<a href="http://en.wikipedia.org/wiki/Logic">邏輯學</a>、<a href="http://en.wikipedia.org/wiki/Set_theory">集合論</a>、<a href="http://en.wikipedia.org/wiki/Algorithms">演算法</a>、<a href="http://en.wikipedia.org/wiki/Combinatorics">組合數學</a>、<a href="http://en.wikipedia.org/wiki/Recurrence_relation">遞迴</a>、<a href="http://en.wikipedia.org/wiki/Number_theory">數論</a>、<a href="http://en.wikipedia.org/wiki/Graph_theory">圖論</a>、<a href="http://en.wikipedia.org/wiki/Boolean_algebra">布林代數</a>等等。由於是總括性的課程，很多主題主要是在介紹基本的定義，而不會有太過深入的應用。有些內容也許高中也有提到，但在這門課中會做更嚴謹的推導。</p>
-
-<h2 id="簡介">簡介</h2>
-
+<h2 id="簡介">
+  簡介
+  <a class="anchor" href="#%e7%b0%a1%e4%bb%8b">#</a>
+</h2>
 <p>邏輯學是數學推論證明的基礎，是理解數學的基礎之一，在課程中也會帶到 <a href="http://en.wikipedia.org/wiki/Mathematical_induction">Mathematical induction</a> 等證明的方法，在其後的數學課程中常會使用，若要深入研究，系上也有數理邏輯的課程可供選修。<a href="http://en.wikipedia.org/wiki/Set_%28mathematics%29">Sets</a>, <a href="http://en.wikipedia.org/wiki/Graph_%28mathematics%29">Graphs</a>, <a href="http://en.wikipedia.org/wiki/Function_%28mathematics%29">Functions</a> 這些經常被使用的觀念，也會在這堂課裡教授，其中 Graphs 對新生而言可能較不熟悉，卻是往後課程中大量使用的概念。演算法可說是電腦科學的核心之一，也有自己獨立的一門課程。在離散這堂課裡，會介紹演算法的定義，以及幾種簡單的演算法。遞迴的概念在程式設計中非常常見，而在<a href="http://en.wikipedia.org/wiki/Algorithm_analysis">分析演算法效率</a>時，也會<a href="http://www.cs.duke.edu/~ola/ap/recurrence.html">用到解遞迴式的技巧</a>。數論主要會介紹和密碼學有密切相關的部份，像是 <a href="http://en.wikipedia.org/wiki/Chinese_remainder_theorem">Chinese remainder theorem</a>, <a href="http://en.wikipedia.org/wiki/RSA_%28algorithm%29">RSA</a>等等。</p>
-
 <p>這是一門重定義、理解、以及證明的數學課，相對於實做導向的程式課或者是計算為主的微積分等課程有很大的不同，在學習時應將每個概念與證明完整理解。筆者自己以及許多同學在學習這堂課時，經常對所學感到不踏實，直到後來學習更深入的課程時才了解離散數學基礎的重要。若有時間，可嘗試閱讀延伸課程之教科書，或許能對離散的學習帶來一些幫助。</p>
-
-<h2 id="參考">參考</h2>
-
+<h2 id="參考">
+  參考
+  <a class="anchor" href="#%e5%8f%83%e8%80%83">#</a>
+</h2>
 <ul>
 <li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2010/">Mathematics for Computer Science</a></li>
 <li><a href="http://ocw.nctu.edu.tw/riki_detail.php?pgid=252">離散數學</a></li>
@@ -121,44 +210,63 @@
 <li><a href="http://www.amazon.com/Discrete-Combinatorial-Mathematics-Applied-Introduction/dp/0201726343/">《Discrete and Combinatorial Mathematics: An Applied Introduction》</a></li>
 </ul>
 </article>
-
+ 
       
 
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
     
-  
-  
-  <aside class="book-toc fixed">
-    <nav id="TableOfContents">
-<ul>
-<li><a href="#離散數學">離散數學</a>
-<ul>
-<li><a href="#前言">前言</a></li>
-<li><a href="#簡介">簡介</a></li>
-<li><a href="#參考">參考</a></li>
-</ul></li>
-</ul>
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#簡介">簡介</a></li>
+    <li><a href="#參考">參考</a></li>
+  </ul>
 </nav>
-  </aside>
 
-
-
+ 
+    </aside>
+    
   </main>
 
   
-  
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-13132274-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
