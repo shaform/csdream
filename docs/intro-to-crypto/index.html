@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="zh" dir=>
-
+<html lang="zh-TW" dir="ltr">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="密碼學概論 #  前言 #  密碼學概論是交大資工大三的課程，課程的主題，Cryptography，旨在探討加密背後的數學原理，如何在第三方可以攔截或假造訊息的情況下，加密訊息以保證僅有信任的人可以得知真正的內容。也會討論延伸的議題如 digital signature, secret sharing 等等。歷年來使用的課本不一，筆者建議可以從《An Introduction to Mathematical Cryptography》開始讀起，也可參考：〈Books on Cryptography〉。一部分使用的數學工具如中國餘式定理等等在〈離散數學〉已有提及。
-簡介 #  這堂課一開始會先簡介古典的各種加密法如字母代換，並說明為何這種加密法可以透過簡單的分析破解。接下來，開始建立基本的數學基礎，包含：
- Modular Arithmetic Finite field Chinese Remainder Theorem Legendre symbol Jacobi symbol  接下來，便從基本的 Symmetric-key algorithm 概念開始講起，在此種加密法中，訊息的發送者與接受者使用同一把密鑰來加密與解密，其他人若沒有此鑰匙，便無法輕易解出內容。
+<meta name="description" content="密碼學概論 # 前言 # 密碼學概論是交大資工大三的課程，課程的主題，Cryptography，旨在探討加密背後的數學原理，如何在第三方可以攔截或假造訊息的情況下，加密訊息以保證僅有信任的人可以得知真正的內容。也會討論延伸的議題如 digital signature, secret sharing 等等。歷年來使用的課本不一，筆者建議可以從《An Introduction to Mathematical Cryptography》開始讀起，也可參考：〈Books on Cryptography〉。一部分使用的數學工具如中國餘式定理等等在〈離散數學〉已有提及。
+簡介 # 這堂課一開始會先簡介古典的各種加密法如字母代換，並說明為何這種加密法可以透過簡單的分析破解。接下來，開始建立基本的數學基礎，包含：
+Modular Arithmetic Finite field Chinese Remainder Theorem Legendre symbol Jacobi symbol 接下來，便從基本的 Symmetric-key algorithm 概念開始講起，在此種加密法中，訊息的發送者與接受者使用同一把密鑰來加密與解密，其他人若沒有此鑰匙，便無法輕易解出內容。
 除了介紹 stream ciphers, block ciphers 等兩種主要分類外，也會介紹幾種目前常見的加密法：DES, AES。
 然而，此類加密法衍生出一個問題：如果無法安全的傳遞訊息，那麼那把共享的密鑰，一開始究竟要如何交給你要傳送訊息的對象呢？以此問題為開端，延伸出了一個新的概念：Public-key cryptography，在此類加密法中，人們通常可以透過一個公開的公鑰加密訊息，可是這加密的訊息卻只有透過與公鑰相對應的私鑰才能解開。所以只要公佈你的公鑰卻保留妳的私鑰，則任何人都可以加密，但卻只有妳可以解密。其中最著名的例子或許就是 RSA。
 即使在加密法、解密法和公鑰都已知的情況下，攻擊者仍無法輕易的解出私鑰或者加密的內容，這樣特別的數學性質，便是接下來討論的重點。
- Factorization Primality test Discrete logarithm Hash function  最後還有碰觸到許多延伸課題：
- Digital signature Blind signature Pairing-based cryptography Elliptic curve cryptography  其他 #  在這堂課裡，也會自己實做各種加密法的程式。筆者將實做 RC4 及 SHA-1 的程式碼放在 @nctu-crypto-100，可供參考。">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="密碼學概論" />
-<meta property="og:description" content="密碼學概論 #  前言 #  密碼學概論是交大資工大三的課程，課程的主題，Cryptography，旨在探討加密背後的數學原理，如何在第三方可以攔截或假造訊息的情況下，加密訊息以保證僅有信任的人可以得知真正的內容。也會討論延伸的議題如 digital signature, secret sharing 等等。歷年來使用的課本不一，筆者建議可以從《An Introduction to Mathematical Cryptography》開始讀起，也可參考：〈Books on Cryptography〉。一部分使用的數學工具如中國餘式定理等等在〈離散數學〉已有提及。
-簡介 #  這堂課一開始會先簡介古典的各種加密法如字母代換，並說明為何這種加密法可以透過簡單的分析破解。接下來，開始建立基本的數學基礎，包含：
- Modular Arithmetic Finite field Chinese Remainder Theorem Legendre symbol Jacobi symbol  接下來，便從基本的 Symmetric-key algorithm 概念開始講起，在此種加密法中，訊息的發送者與接受者使用同一把密鑰來加密與解密，其他人若沒有此鑰匙，便無法輕易解出內容。
+Factorization Primality test Discrete logarithm Hash function 最後還有碰觸到許多延伸課題：
+Digital signature Blind signature Pairing-based cryptography Elliptic curve cryptography 其他 # 在這堂課裡，也會自己實做各種加密法的程式。筆者將實做 RC4 及 SHA-1 的程式碼放在 @nctu-crypto-100，可供參考。">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="密碼學概論" />
+<meta property="og:description" content="密碼學概論 # 前言 # 密碼學概論是交大資工大三的課程，課程的主題，Cryptography，旨在探討加密背後的數學原理，如何在第三方可以攔截或假造訊息的情況下，加密訊息以保證僅有信任的人可以得知真正的內容。也會討論延伸的議題如 digital signature, secret sharing 等等。歷年來使用的課本不一，筆者建議可以從《An Introduction to Mathematical Cryptography》開始讀起，也可參考：〈Books on Cryptography〉。一部分使用的數學工具如中國餘式定理等等在〈離散數學〉已有提及。
+簡介 # 這堂課一開始會先簡介古典的各種加密法如字母代換，並說明為何這種加密法可以透過簡單的分析破解。接下來，開始建立基本的數學基礎，包含：
+Modular Arithmetic Finite field Chinese Remainder Theorem Legendre symbol Jacobi symbol 接下來，便從基本的 Symmetric-key algorithm 概念開始講起，在此種加密法中，訊息的發送者與接受者使用同一把密鑰來加密與解密，其他人若沒有此鑰匙，便無法輕易解出內容。
 除了介紹 stream ciphers, block ciphers 等兩種主要分類外，也會介紹幾種目前常見的加密法：DES, AES。
 然而，此類加密法衍生出一個問題：如果無法安全的傳遞訊息，那麼那把共享的密鑰，一開始究竟要如何交給你要傳送訊息的對象呢？以此問題為開端，延伸出了一個新的概念：Public-key cryptography，在此類加密法中，人們通常可以透過一個公開的公鑰加密訊息，可是這加密的訊息卻只有透過與公鑰相對應的私鑰才能解開。所以只要公佈你的公鑰卻保留妳的私鑰，則任何人都可以加密，但卻只有妳可以解密。其中最著名的例子或許就是 RSA。
 即使在加密法、解密法和公鑰都已知的情況下，攻擊者仍無法輕易的解出私鑰或者加密的內容，這樣特別的數學性質，便是接下來討論的重點。
- Factorization Primality test Discrete logarithm Hash function  最後還有碰觸到許多延伸課題：
- Digital signature Blind signature Pairing-based cryptography Elliptic curve cryptography  其他 #  在這堂課裡，也會自己實做各種加密法的程式。筆者將實做 RC4 及 SHA-1 的程式碼放在 @nctu-crypto-100，可供參考。" />
+Factorization Primality test Discrete logarithm Hash function 最後還有碰觸到許多延伸課題：
+Digital signature Blind signature Pairing-based cryptography Elliptic curve cryptography 其他 # 在這堂課裡，也會自己實做各種加密法的程式。筆者將實做 RC4 及 SHA-1 的程式碼放在 @nctu-crypto-100，可供參考。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shaform.com/csdream/docs/intro-to-crypto/" /><meta property="article:section" content="docs" />
 
@@ -29,33 +29,36 @@
 <title>密碼學概論 | 資夢</title>
 <link rel="manifest" href="/csdream/manifest.json">
 <link rel="icon" href="/csdream/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/csdream/book.min.d08be657f4d0d61b509ac06e1059e92fd1c66f15535a6bd4cee27e19935f34ae.css" integrity="sha256-0IvmV/TQ1htQmsBuEFnpL9HGbxVTWmvUzuJ&#43;GZNfNK4=">
-<script defer src="/csdream/zh.search.min.85e918c2e7a9d34a6340ef5a7f12a65aea6b7a034fbd4dcc7680ac50ec3349e9.js" integrity="sha256-hekYwuep00pjQO9afxKmWupregNPvU3MdoCsUOwzSek="></script>
+<link rel="stylesheet" href="/csdream/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/csdream/flexsearch.min.js"></script>
+  <script defer src="/csdream/zh.search.min.262d227fdb056eb87ee013326599986662d4de884e15815c0c4154e7b8debd2c.js" integrity="sha256-Ji0if9sFbrh&#43;4BMyZZmYZmLU3ohOFYFcDEFU57jevSw=" crossorigin="anonymous"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-13132274-5"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE6LKTMJRB"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-13132274-5');
-</script><!--
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-ZE6LKTMJRB', { 'anonymize_ip': false });
+}
+</script>
+<!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
-
   
 </head>
-
-<body dir=>
+<body dir="ltr">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
-      
+      <div class="book-menu-content">
+        
   <nav>
 <h2 class="book-brand">
-  <a href="/csdream"><span>資夢</span>
+  <a class="flex align-center" href="/csdream/"><span>資夢</span>
   </a>
 </h2>
 
@@ -65,6 +68,7 @@ https://github.com/alex-shpak/hugo-book
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+
 
 
 
@@ -147,10 +151,11 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
 
 
  
+      </div>
     </aside>
 
     <div class="book-page">
@@ -174,7 +179,8 @@ https://github.com/alex-shpak/hugo-book
   
   <aside class="hidden clearfix">
     
-  <nav id="TableOfContents">
+  
+<nav id="TableOfContents">
   <ul>
     <li><a href="#前言">前言</a></li>
     <li><a href="#簡介">簡介</a></li>
@@ -182,6 +188,7 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#參考">參考</a></li>
   </ul>
 </nav>
+
 
 
   </aside>
@@ -256,6 +263,11 @@ https://github.com/alex-shpak/hugo-book
 
 </div>
 
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
  
         
       </footer>
@@ -273,8 +285,10 @@ https://github.com/alex-shpak/hugo-book
 
     
     <aside class="book-toc">
-      
-  <nav id="TableOfContents">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
   <ul>
     <li><a href="#前言">前言</a></li>
     <li><a href="#簡介">簡介</a></li>
@@ -283,14 +297,15 @@ https://github.com/alex-shpak/hugo-book
   </ul>
 </nav>
 
+
  
+      </div>
     </aside>
     
   </main>
 
   
 </body>
-
 </html>
 
 

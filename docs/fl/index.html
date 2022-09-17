@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="zh" dir=>
-
+<html lang="zh-TW" dir="ltr">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="正規語言概論 #  前言 #  正規語言概論是交大資工大三上的必修課程。這門課的課題是基礎的計算理論，研究什麼是電腦的能力和極限。介紹各種計算模型，例如 DFA, NFA, PDA, Turing machines 等等，以及其相對應的正規語言，如 regular languages, context free languages, Turing-decidable languages 等等。也會探討問題間的 Reduction 以及問題的 Complexity 等等。
+<meta name="description" content=" 正規語言概論 # 前言 # 正規語言概論是交大資工大三上的必修課程。這門課的課題是基礎的計算理論，研究什麼是電腦的能力和極限。介紹各種計算模型，例如 DFA, NFA, PDA, Turing machines 等等，以及其相對應的正規語言，如 regular languages, context free languages, Turing-decidable languages 等等。也會探討問題間的 Reduction 以及問題的 Complexity 等等。
 系上使用的教科書主要是《Introduction to the Theory of Computation》不過也有老師使用《Introduction to Automata Theory, Languages, and Computation》。
-簡介 #  透過計算模型，我們可以對計算定下明確的數學定義。而一旦有了明確的定義，便可以研究什麼是可計算的、什麼是不可計算的，而對於可計算的問題，必須花費多少時間和空間才可能計算。
+簡介 # 透過計算模型，我們可以對計算定下明確的數學定義。而一旦有了明確的定義，便可以研究什麼是可計算的、什麼是不可計算的，而對於可計算的問題，必須花費多少時間和空間才可能計算。
 Church–Turing thesis 指出，所有演算法可解的問題，都可透過 Turing machines 求解，也因此，藉由研究 Turing machines 我們得以探討電腦的極限，以及對各種問題的難度訂出明確的界線。
 這是一門非常理論與數學的課，需要非常清晰的邏輯思考。老師曾說，資訊界日新月異，許多課程可能幾年後就不見了，或者教的東西大幅改變。但你幾乎可以確定，正規語言這門課還是會一直存在。從哲學的角度來說，計算理論在電腦科學裡佔了十分核心的地位。
 正規語言課程所學的東西其實也有很多延伸的應用，以至於很多讀者很可能早已接觸過某些部份，但直到這門課，才真正以嚴謹的方式學習背後的來歷。像是如果有接觸像 Python 等語言或者用過 Vim 等編輯器的搜尋功能的讀者，很有可能有接觸過正規表示式。而 CFG 和程式語言的設計以及編譯器等課程有密切相關，你或許會曾在程式語言的文件上看過他。如果在演算法等課程聽過 NP、P 等名詞，在這堂課裡，你可以學到這些名詞到底有什麼含意。而對什麼是演算法，時間複雜度、問題的可計算性等等，都會在這堂課得到更深的理解。
-學習小指引 #  課本本身寫的很好，建議將《Introduction to the Theory of Computation》研讀數遍，並配合書中練習題。
-參考 #   Computability and Complexity Automata, Computability, and Complexity Regular Expression (RegExp) in JavaScript  ">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="正規語言概論" />
-<meta property="og:description" content="正規語言概論 #  前言 #  正規語言概論是交大資工大三上的必修課程。這門課的課題是基礎的計算理論，研究什麼是電腦的能力和極限。介紹各種計算模型，例如 DFA, NFA, PDA, Turing machines 等等，以及其相對應的正規語言，如 regular languages, context free languages, Turing-decidable languages 等等。也會探討問題間的 Reduction 以及問題的 Complexity 等等。
+學習小指引 # 課本本身寫的很好，建議將《Introduction to the Theory of Computation》研讀數遍，並配合書中練習題。
+參考 # Computability and Complexity Automata, Computability, and Complexity Regular Expression (RegExp) in JavaScript ">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="正規語言概論" />
+<meta property="og:description" content=" 正規語言概論 # 前言 # 正規語言概論是交大資工大三上的必修課程。這門課的課題是基礎的計算理論，研究什麼是電腦的能力和極限。介紹各種計算模型，例如 DFA, NFA, PDA, Turing machines 等等，以及其相對應的正規語言，如 regular languages, context free languages, Turing-decidable languages 等等。也會探討問題間的 Reduction 以及問題的 Complexity 等等。
 系上使用的教科書主要是《Introduction to the Theory of Computation》不過也有老師使用《Introduction to Automata Theory, Languages, and Computation》。
-簡介 #  透過計算模型，我們可以對計算定下明確的數學定義。而一旦有了明確的定義，便可以研究什麼是可計算的、什麼是不可計算的，而對於可計算的問題，必須花費多少時間和空間才可能計算。
+簡介 # 透過計算模型，我們可以對計算定下明確的數學定義。而一旦有了明確的定義，便可以研究什麼是可計算的、什麼是不可計算的，而對於可計算的問題，必須花費多少時間和空間才可能計算。
 Church–Turing thesis 指出，所有演算法可解的問題，都可透過 Turing machines 求解，也因此，藉由研究 Turing machines 我們得以探討電腦的極限，以及對各種問題的難度訂出明確的界線。
 這是一門非常理論與數學的課，需要非常清晰的邏輯思考。老師曾說，資訊界日新月異，許多課程可能幾年後就不見了，或者教的東西大幅改變。但你幾乎可以確定，正規語言這門課還是會一直存在。從哲學的角度來說，計算理論在電腦科學裡佔了十分核心的地位。
 正規語言課程所學的東西其實也有很多延伸的應用，以至於很多讀者很可能早已接觸過某些部份，但直到這門課，才真正以嚴謹的方式學習背後的來歷。像是如果有接觸像 Python 等語言或者用過 Vim 等編輯器的搜尋功能的讀者，很有可能有接觸過正規表示式。而 CFG 和程式語言的設計以及編譯器等課程有密切相關，你或許會曾在程式語言的文件上看過他。如果在演算法等課程聽過 NP、P 等名詞，在這堂課裡，你可以學到這些名詞到底有什麼含意。而對什麼是演算法，時間複雜度、問題的可計算性等等，都會在這堂課得到更深的理解。
-學習小指引 #  課本本身寫的很好，建議將《Introduction to the Theory of Computation》研讀數遍，並配合書中練習題。
-參考 #   Computability and Complexity Automata, Computability, and Complexity Regular Expression (RegExp) in JavaScript  " />
+學習小指引 # 課本本身寫的很好，建議將《Introduction to the Theory of Computation》研讀數遍，並配合書中練習題。
+參考 # Computability and Complexity Automata, Computability, and Complexity Regular Expression (RegExp) in JavaScript " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shaform.com/csdream/docs/fl/" /><meta property="article:section" content="docs" />
 
@@ -29,33 +29,36 @@ Church–Turing thesis 指出，所有演算法可解的問題，都可透過 Tu
 <title>正規語言概論 | 資夢</title>
 <link rel="manifest" href="/csdream/manifest.json">
 <link rel="icon" href="/csdream/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/csdream/book.min.d08be657f4d0d61b509ac06e1059e92fd1c66f15535a6bd4cee27e19935f34ae.css" integrity="sha256-0IvmV/TQ1htQmsBuEFnpL9HGbxVTWmvUzuJ&#43;GZNfNK4=">
-<script defer src="/csdream/zh.search.min.85e918c2e7a9d34a6340ef5a7f12a65aea6b7a034fbd4dcc7680ac50ec3349e9.js" integrity="sha256-hekYwuep00pjQO9afxKmWupregNPvU3MdoCsUOwzSek="></script>
+<link rel="stylesheet" href="/csdream/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/csdream/flexsearch.min.js"></script>
+  <script defer src="/csdream/zh.search.min.262d227fdb056eb87ee013326599986662d4de884e15815c0c4154e7b8debd2c.js" integrity="sha256-Ji0if9sFbrh&#43;4BMyZZmYZmLU3ohOFYFcDEFU57jevSw=" crossorigin="anonymous"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-13132274-5"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE6LKTMJRB"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-13132274-5');
-</script><!--
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-ZE6LKTMJRB', { 'anonymize_ip': false });
+}
+</script>
+<!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
-
   
 </head>
-
-<body dir=>
+<body dir="ltr">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
-      
+      <div class="book-menu-content">
+        
   <nav>
 <h2 class="book-brand">
-  <a href="/csdream"><span>資夢</span>
+  <a class="flex align-center" href="/csdream/"><span>資夢</span>
   </a>
 </h2>
 
@@ -65,6 +68,7 @@ https://github.com/alex-shpak/hugo-book
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+
 
 
 
@@ -147,10 +151,11 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
 
 
  
+      </div>
     </aside>
 
     <div class="book-page">
@@ -174,7 +179,8 @@ https://github.com/alex-shpak/hugo-book
   
   <aside class="hidden clearfix">
     
-  <nav id="TableOfContents">
+  
+<nav id="TableOfContents">
   <ul>
     <li><a href="#前言">前言</a></li>
     <li><a href="#簡介">簡介</a></li>
@@ -182,6 +188,7 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#參考">參考</a></li>
   </ul>
 </nav>
+
 
 
   </aside>
@@ -237,6 +244,11 @@ https://github.com/alex-shpak/hugo-book
 
 </div>
 
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
  
         
       </footer>
@@ -254,8 +266,10 @@ https://github.com/alex-shpak/hugo-book
 
     
     <aside class="book-toc">
-      
-  <nav id="TableOfContents">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
   <ul>
     <li><a href="#前言">前言</a></li>
     <li><a href="#簡介">簡介</a></li>
@@ -264,14 +278,15 @@ https://github.com/alex-shpak/hugo-book
   </ul>
 </nav>
 
+
  
+      </div>
     </aside>
     
   </main>
 
   
 </body>
-
 </html>
 
 

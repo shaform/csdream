@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="zh" dir=>
-
+<html lang="zh-TW" dir="ltr">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="數位電路實驗 #  前言 #  數位電路實驗是交大資工大二下的必修課程，接續大二上的數位電路設計，這門課是教如何利用 Verilog 硬體描述語言來設計數位電路。語言本身並不複雜，和 C 也非常類似，主要會用到的部分很快就會學完。在數位電路設計課程使用的《Digital Design》一書中便有硬體描述語言的章節，其中有許多不錯的習題可供練習。此外，十分推薦《Verilog HDL》這本書，對 Verilog 語言有非常清楚的講解。要小心注意的是，Verilog 是用來描述硬體的語言，有些寫法，雖然語義沒問題，但卻無法合成為實際的電路，或者是會因為訊號輸入不穩還是訊號延遲而產生奇怪的問題，Verilog 並非程式語言，這是數位電路實驗這門課裡最需注意的部份。若想對 Verilog 合成的議題有更深的了解，可以參考《Verilog HDL Synthesis, A Practical Primer》這本書。此外，XST User Guide 也是合成電路時值得參考的文件。網路上的教學文件可參考：WORLD OF ASIC。
-環境 #  筆者的班是使用 Xilinx ISE 這套工具來模擬和設計電路，可以在官方網站上下載這套軟體，還有另一個班是使用 NCVerilog 來跑模擬，不過若要將電路實際合成到 FPGA 上時，使用的都是 Xilinx ISE。如果你是使用 Linux，你也可以嘗試使用 Icarus Verilog 來模擬，參考：Verilog @ Linux using Icarus Verilog。
-筆者當年使用的 FPGA 板是 Xilinx XC3S500E FG320，其上有數個開關、LED 燈、還有螢幕 VGA 、滑鼠、鍵盤等接頭。Verilog 模組透過和開發板上接頭的互動，可以讀入鍵盤、滑鼠的輸入，也可以輸出畫面到螢幕上。實驗課所寫的內容包括抽牌比大小的遊戲（用 LED 燈顯示大小）、以及用螢幕顯示的圈圈叉叉和打磚塊遊戲等等。這些輸出入背後的原理可參考《FPGA Prototyping Using Verilog Examples》，開發板取得不易，若有興趣或可參考〈Xilinx Spartan-3E Starter Kit的基本裝備 〉。">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="數位電路實驗" />
-<meta property="og:description" content="數位電路實驗 #  前言 #  數位電路實驗是交大資工大二下的必修課程，接續大二上的數位電路設計，這門課是教如何利用 Verilog 硬體描述語言來設計數位電路。語言本身並不複雜，和 C 也非常類似，主要會用到的部分很快就會學完。在數位電路設計課程使用的《Digital Design》一書中便有硬體描述語言的章節，其中有許多不錯的習題可供練習。此外，十分推薦《Verilog HDL》這本書，對 Verilog 語言有非常清楚的講解。要小心注意的是，Verilog 是用來描述硬體的語言，有些寫法，雖然語義沒問題，但卻無法合成為實際的電路，或者是會因為訊號輸入不穩還是訊號延遲而產生奇怪的問題，Verilog 並非程式語言，這是數位電路實驗這門課裡最需注意的部份。若想對 Verilog 合成的議題有更深的了解，可以參考《Verilog HDL Synthesis, A Practical Primer》這本書。此外，XST User Guide 也是合成電路時值得參考的文件。網路上的教學文件可參考：WORLD OF ASIC。
-環境 #  筆者的班是使用 Xilinx ISE 這套工具來模擬和設計電路，可以在官方網站上下載這套軟體，還有另一個班是使用 NCVerilog 來跑模擬，不過若要將電路實際合成到 FPGA 上時，使用的都是 Xilinx ISE。如果你是使用 Linux，你也可以嘗試使用 Icarus Verilog 來模擬，參考：Verilog @ Linux using Icarus Verilog。
-筆者當年使用的 FPGA 板是 Xilinx XC3S500E FG320，其上有數個開關、LED 燈、還有螢幕 VGA 、滑鼠、鍵盤等接頭。Verilog 模組透過和開發板上接頭的互動，可以讀入鍵盤、滑鼠的輸入，也可以輸出畫面到螢幕上。實驗課所寫的內容包括抽牌比大小的遊戲（用 LED 燈顯示大小）、以及用螢幕顯示的圈圈叉叉和打磚塊遊戲等等。這些輸出入背後的原理可參考《FPGA Prototyping Using Verilog Examples》，開發板取得不易，若有興趣或可參考〈Xilinx Spartan-3E Starter Kit的基本裝備 〉。" />
+<meta name="description" content="數位電路實驗 # 前言 # 數位電路實驗是交大資工大二下的必修課程，接續大二上的數位電路設計，這門課是教如何利用 Verilog 硬體描述語言來設計數位電路。語言本身並不複雜，和 C 也非常類似，主要會用到的部分很快就會學完。在數位電路設計課程使用的《Digital Design》一書中便有硬體描述語言的章節，其中有許多不錯的習題可供練習。此外，十分推薦《Verilog HDL》這本書，對 Verilog 語言有非常清楚的講解。要小心注意的是，Verilog 是用來描述硬體的語言，有些寫法，雖然語義沒問題，但卻無法合成為實際的電路，或者是會因為訊號輸入不穩還是訊號延遲而產生奇怪的問題，Verilog 並非程式語言，這是數位電路實驗這門課裡最需注意的部份。若想對 Verilog 合成的議題有更深的了解，可以參考《Verilog HDL Synthesis, A Practical Primer》這本書。此外，XST User Guide 也是合成電路時值得參考的文件。網路上的教學文件可參考：WORLD OF ASIC。
+環境 # 筆者的班是使用 Xilinx ISE 這套工具來模擬和設計電路，可以在官方網站上下載這套軟體，還有另一個班是使用 NCVerilog 來跑模擬，不過若要將電路實際合成到 FPGA 上時，使用的都是 Xilinx ISE。如果你是使用 Linux，你也可以嘗試使用 Icarus Verilog 來模擬，參考：Verilog @ Linux using Icarus Verilog。
+筆者當年使用的 FPGA 板是 Xilinx XC3S500E FG320，其上有數個開關、LED 燈、還有螢幕 VGA 、滑鼠、鍵盤等接頭。Verilog 模組透過和開發板上接頭的互動，可以讀入鍵盤、滑鼠的輸入，也可以輸出畫面到螢幕上。實驗課所寫的內容包括抽牌比大小的遊戲（用 LED 燈顯示大小）、以及用螢幕顯示的圈圈叉叉和打磚塊遊戲等等。這些輸出入背後的原理可參考《FPGA Prototyping Using Verilog Examples》，開發板取得不易，若有興趣或可參考〈Xilinx Spartan-3E Starter Kit的基本裝備 〉。
+小提醒 # 在書上或老師的投影片上都有講一些寫 Verilog 的基本原則，有些寫法雖然可能會讓程式碼變長（如：一個 always block 只做一件事），不過往往會讓錯誤比較容易被找出來，以及，更重要的，讓你在寫 Verilog 時比較容易去想像每一個結構合成出來會是什麼樣的電路。">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="數位電路實驗" />
+<meta property="og:description" content="數位電路實驗 # 前言 # 數位電路實驗是交大資工大二下的必修課程，接續大二上的數位電路設計，這門課是教如何利用 Verilog 硬體描述語言來設計數位電路。語言本身並不複雜，和 C 也非常類似，主要會用到的部分很快就會學完。在數位電路設計課程使用的《Digital Design》一書中便有硬體描述語言的章節，其中有許多不錯的習題可供練習。此外，十分推薦《Verilog HDL》這本書，對 Verilog 語言有非常清楚的講解。要小心注意的是，Verilog 是用來描述硬體的語言，有些寫法，雖然語義沒問題，但卻無法合成為實際的電路，或者是會因為訊號輸入不穩還是訊號延遲而產生奇怪的問題，Verilog 並非程式語言，這是數位電路實驗這門課裡最需注意的部份。若想對 Verilog 合成的議題有更深的了解，可以參考《Verilog HDL Synthesis, A Practical Primer》這本書。此外，XST User Guide 也是合成電路時值得參考的文件。網路上的教學文件可參考：WORLD OF ASIC。
+環境 # 筆者的班是使用 Xilinx ISE 這套工具來模擬和設計電路，可以在官方網站上下載這套軟體，還有另一個班是使用 NCVerilog 來跑模擬，不過若要將電路實際合成到 FPGA 上時，使用的都是 Xilinx ISE。如果你是使用 Linux，你也可以嘗試使用 Icarus Verilog 來模擬，參考：Verilog @ Linux using Icarus Verilog。
+筆者當年使用的 FPGA 板是 Xilinx XC3S500E FG320，其上有數個開關、LED 燈、還有螢幕 VGA 、滑鼠、鍵盤等接頭。Verilog 模組透過和開發板上接頭的互動，可以讀入鍵盤、滑鼠的輸入，也可以輸出畫面到螢幕上。實驗課所寫的內容包括抽牌比大小的遊戲（用 LED 燈顯示大小）、以及用螢幕顯示的圈圈叉叉和打磚塊遊戲等等。這些輸出入背後的原理可參考《FPGA Prototyping Using Verilog Examples》，開發板取得不易，若有興趣或可參考〈Xilinx Spartan-3E Starter Kit的基本裝備 〉。
+小提醒 # 在書上或老師的投影片上都有講一些寫 Verilog 的基本原則，有些寫法雖然可能會讓程式碼變長（如：一個 always block 只做一件事），不過往往會讓錯誤比較容易被找出來，以及，更重要的，讓你在寫 Verilog 時比較容易去想像每一個結構合成出來會是什麼樣的電路。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shaform.com/csdream/docs/dlab/" /><meta property="article:section" content="docs" />
 
@@ -19,33 +21,36 @@
 <title>數位電路實驗 | 資夢</title>
 <link rel="manifest" href="/csdream/manifest.json">
 <link rel="icon" href="/csdream/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/csdream/book.min.d08be657f4d0d61b509ac06e1059e92fd1c66f15535a6bd4cee27e19935f34ae.css" integrity="sha256-0IvmV/TQ1htQmsBuEFnpL9HGbxVTWmvUzuJ&#43;GZNfNK4=">
-<script defer src="/csdream/zh.search.min.85e918c2e7a9d34a6340ef5a7f12a65aea6b7a034fbd4dcc7680ac50ec3349e9.js" integrity="sha256-hekYwuep00pjQO9afxKmWupregNPvU3MdoCsUOwzSek="></script>
+<link rel="stylesheet" href="/csdream/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/csdream/flexsearch.min.js"></script>
+  <script defer src="/csdream/zh.search.min.262d227fdb056eb87ee013326599986662d4de884e15815c0c4154e7b8debd2c.js" integrity="sha256-Ji0if9sFbrh&#43;4BMyZZmYZmLU3ohOFYFcDEFU57jevSw=" crossorigin="anonymous"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-13132274-5"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE6LKTMJRB"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-13132274-5');
-</script><!--
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-ZE6LKTMJRB', { 'anonymize_ip': false });
+}
+</script>
+<!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
-
   
 </head>
-
-<body dir=>
+<body dir="ltr">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
-      
+      <div class="book-menu-content">
+        
   <nav>
 <h2 class="book-brand">
-  <a href="/csdream"><span>資夢</span>
+  <a class="flex align-center" href="/csdream/"><span>資夢</span>
   </a>
 </h2>
 
@@ -55,6 +60,7 @@ https://github.com/alex-shpak/hugo-book
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+
 
 
 
@@ -137,10 +143,11 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
 
 
  
+      </div>
     </aside>
 
     <div class="book-page">
@@ -164,7 +171,8 @@ https://github.com/alex-shpak/hugo-book
   
   <aside class="hidden clearfix">
     
-  <nav id="TableOfContents">
+  
+<nav id="TableOfContents">
   <ul>
     <li><a href="#前言">前言</a></li>
     <li><a href="#環境">環境</a></li>
@@ -174,6 +182,7 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#其他">其他</a></li>
   </ul>
 </nav>
+
 
 
   </aside>
@@ -242,6 +251,11 @@ https://github.com/alex-shpak/hugo-book
 
 </div>
 
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
  
         
       </footer>
@@ -259,8 +273,10 @@ https://github.com/alex-shpak/hugo-book
 
     
     <aside class="book-toc">
-      
-  <nav id="TableOfContents">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
   <ul>
     <li><a href="#前言">前言</a></li>
     <li><a href="#環境">環境</a></li>
@@ -271,14 +287,15 @@ https://github.com/alex-shpak/hugo-book
   </ul>
 </nav>
 
+
  
+      </div>
     </aside>
     
   </main>
 
   
 </body>
-
 </html>
 
 

@@ -1,14 +1,14 @@
 {
   "name": "資夢",
   "short_name": "資夢",
-  "start_url": "/csdream/",
-  "scope": "/csdream/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/csdream/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "512x512"
     }
   ]

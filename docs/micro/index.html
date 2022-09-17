@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="zh" dir=>
-
+<html lang="zh-TW" dir="ltr">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="微處理機系統實驗 #  前言 #  微處理機系統實驗是交大資工大三上的課程，在這門課中，學生將會撰寫在 microcontroller 上執行的程式，利用實驗版或甚至麵包版，實際使單晶片和環境互動。所謂的 microcontroller，指的是把中央處理器、記憶體、各種輸入出介面等等都整合在一起的小型計算機。雖然計算能力沒有一般電腦的 CPU 好，但體積小而便宜，被運用在簡單的嵌入式系統中。這堂課使用的微處理機為 8051，使用的語言主要為 8051 的組合語言，但有些班也可能使用 8051 C 來做更複雜的操作。
+<meta name="description" content="微處理機系統實驗 # 前言 # 微處理機系統實驗是交大資工大三上的課程，在這門課中，學生將會撰寫在 microcontroller 上執行的程式，利用實驗版或甚至麵包版，實際使單晶片和環境互動。所謂的 microcontroller，指的是把中央處理器、記憶體、各種輸入出介面等等都整合在一起的小型計算機。雖然計算能力沒有一般電腦的 CPU 好，但體積小而便宜，被運用在簡單的嵌入式系統中。這堂課使用的微處理機為 8051，使用的語言主要為 8051 的組合語言，但有些班也可能使用 8051 C 來做更複雜的操作。
 在課程中將會操作許多的輸出入，包含按鍵、開關、數字鍵盤、透過光敏電阻與熱感電阻配合 ADC 讀取環境的值。或者是 LED 燈、七段顯示器、點矩陣顯示器的輸出，控制馬達、蜂鳴器，甚至是利用 RS-232 和電腦溝通等等。
 筆者的期末專題是一個搶答遊戲，利用 RS-232 從電腦終端機顯示題目，兩個玩家透過按鍵搶答，答對時玩家的四驅車會前進，誰先到達終點即獲勝，題目中也有利用蜂鳴器來實做的猜歌題。也有同學是做打地鼠遊戲。
-學習資源 #  這堂課為重實做的課程，練習絕不可少。而讀者若有學過「組合語言與程式程式」，8051 的環境細節與組語的內容其實不深，很快就能進入狀況。讀者可以參考《The 8051/8052 Microcontroller》裡 8051 與組語的基本介紹。或者另外一本《The 8051 Microcontroller》有更全面的教學及練習題。對於 8051 C 的部份，和原始 C 的差別其實不大。讀者可參考：《Embedded C》。而市面上也可找到不少以實做為導向的單晶片中文書籍。
+學習資源 # 這堂課為重實做的課程，練習絕不可少。而讀者若有學過「組合語言與程式程式」，8051 的環境細節與組語的內容其實不深，很快就能進入狀況。讀者可以參考《The 8051/8052 Microcontroller》裡 8051 與組語的基本介紹。或者另外一本《The 8051 Microcontroller》有更全面的教學及練習題。對於 8051 C 的部份，和原始 C 的差別其實不大。讀者可參考：《Embedded C》。而市面上也可找到不少以實做為導向的單晶片中文書籍。
 網路上也有不少教學資源：
- Architecture and Programming of 8051 Microcontrollers 89S52 microcontroller quick tutorial 8051 教材資源  環境 #  開發環境可以使用 Keil C51 µVision IDE，不管是組語或者 C 都可以組/編譯。如果你使用 Linux 系的作業系統，也可以使用 MCU 8051 IDE，不過需注意兩者語法稍有不同。另外一個和 MCU 8051 IDE 語法類似且在 Windows 上使用的是 MIDE-51。其中，Keil C 是多數書籍主要使用的開發環境，但免費版對程式大小有些許限制，另外兩個 IDE 則無。">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="微處理機系統實驗" />
-<meta property="og:description" content="微處理機系統實驗 #  前言 #  微處理機系統實驗是交大資工大三上的課程，在這門課中，學生將會撰寫在 microcontroller 上執行的程式，利用實驗版或甚至麵包版，實際使單晶片和環境互動。所謂的 microcontroller，指的是把中央處理器、記憶體、各種輸入出介面等等都整合在一起的小型計算機。雖然計算能力沒有一般電腦的 CPU 好，但體積小而便宜，被運用在簡單的嵌入式系統中。這堂課使用的微處理機為 8051，使用的語言主要為 8051 的組合語言，但有些班也可能使用 8051 C 來做更複雜的操作。
+Architecture and Programming of 8051 Microcontrollers 89S52 microcontroller quick tutorial 8051 教材資源 環境 # 開發環境可以使用 Keil C51 µVision IDE，不管是組語或者 C 都可以組/編譯。如果你使用 Linux 系的作業系統，也可以使用 MCU 8051 IDE，不過需注意兩者語法稍有不同。另外一個和 MCU 8051 IDE 語法類似且在 Windows 上使用的是 MIDE-51。其中，Keil C 是多數書籍主要使用的開發環境，但免費版對程式大小有些許限制，另外兩個 IDE 則無。">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="微處理機系統實驗" />
+<meta property="og:description" content="微處理機系統實驗 # 前言 # 微處理機系統實驗是交大資工大三上的課程，在這門課中，學生將會撰寫在 microcontroller 上執行的程式，利用實驗版或甚至麵包版，實際使單晶片和環境互動。所謂的 microcontroller，指的是把中央處理器、記憶體、各種輸入出介面等等都整合在一起的小型計算機。雖然計算能力沒有一般電腦的 CPU 好，但體積小而便宜，被運用在簡單的嵌入式系統中。這堂課使用的微處理機為 8051，使用的語言主要為 8051 的組合語言，但有些班也可能使用 8051 C 來做更複雜的操作。
 在課程中將會操作許多的輸出入，包含按鍵、開關、數字鍵盤、透過光敏電阻與熱感電阻配合 ADC 讀取環境的值。或者是 LED 燈、七段顯示器、點矩陣顯示器的輸出，控制馬達、蜂鳴器，甚至是利用 RS-232 和電腦溝通等等。
 筆者的期末專題是一個搶答遊戲，利用 RS-232 從電腦終端機顯示題目，兩個玩家透過按鍵搶答，答對時玩家的四驅車會前進，誰先到達終點即獲勝，題目中也有利用蜂鳴器來實做的猜歌題。也有同學是做打地鼠遊戲。
-學習資源 #  這堂課為重實做的課程，練習絕不可少。而讀者若有學過「組合語言與程式程式」，8051 的環境細節與組語的內容其實不深，很快就能進入狀況。讀者可以參考《The 8051/8052 Microcontroller》裡 8051 與組語的基本介紹。或者另外一本《The 8051 Microcontroller》有更全面的教學及練習題。對於 8051 C 的部份，和原始 C 的差別其實不大。讀者可參考：《Embedded C》。而市面上也可找到不少以實做為導向的單晶片中文書籍。
+學習資源 # 這堂課為重實做的課程，練習絕不可少。而讀者若有學過「組合語言與程式程式」，8051 的環境細節與組語的內容其實不深，很快就能進入狀況。讀者可以參考《The 8051/8052 Microcontroller》裡 8051 與組語的基本介紹。或者另外一本《The 8051 Microcontroller》有更全面的教學及練習題。對於 8051 C 的部份，和原始 C 的差別其實不大。讀者可參考：《Embedded C》。而市面上也可找到不少以實做為導向的單晶片中文書籍。
 網路上也有不少教學資源：
- Architecture and Programming of 8051 Microcontrollers 89S52 microcontroller quick tutorial 8051 教材資源  環境 #  開發環境可以使用 Keil C51 µVision IDE，不管是組語或者 C 都可以組/編譯。如果你使用 Linux 系的作業系統，也可以使用 MCU 8051 IDE，不過需注意兩者語法稍有不同。另外一個和 MCU 8051 IDE 語法類似且在 Windows 上使用的是 MIDE-51。其中，Keil C 是多數書籍主要使用的開發環境，但免費版對程式大小有些許限制，另外兩個 IDE 則無。" />
+Architecture and Programming of 8051 Microcontrollers 89S52 microcontroller quick tutorial 8051 教材資源 環境 # 開發環境可以使用 Keil C51 µVision IDE，不管是組語或者 C 都可以組/編譯。如果你使用 Linux 系的作業系統，也可以使用 MCU 8051 IDE，不過需注意兩者語法稍有不同。另外一個和 MCU 8051 IDE 語法類似且在 Windows 上使用的是 MIDE-51。其中，Keil C 是多數書籍主要使用的開發環境，但免費版對程式大小有些許限制，另外兩個 IDE 則無。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shaform.com/csdream/docs/micro/" /><meta property="article:section" content="docs" />
 
@@ -25,33 +25,36 @@
 <title>微處理機系統實驗 | 資夢</title>
 <link rel="manifest" href="/csdream/manifest.json">
 <link rel="icon" href="/csdream/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/csdream/book.min.d08be657f4d0d61b509ac06e1059e92fd1c66f15535a6bd4cee27e19935f34ae.css" integrity="sha256-0IvmV/TQ1htQmsBuEFnpL9HGbxVTWmvUzuJ&#43;GZNfNK4=">
-<script defer src="/csdream/zh.search.min.85e918c2e7a9d34a6340ef5a7f12a65aea6b7a034fbd4dcc7680ac50ec3349e9.js" integrity="sha256-hekYwuep00pjQO9afxKmWupregNPvU3MdoCsUOwzSek="></script>
+<link rel="stylesheet" href="/csdream/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/csdream/flexsearch.min.js"></script>
+  <script defer src="/csdream/zh.search.min.262d227fdb056eb87ee013326599986662d4de884e15815c0c4154e7b8debd2c.js" integrity="sha256-Ji0if9sFbrh&#43;4BMyZZmYZmLU3ohOFYFcDEFU57jevSw=" crossorigin="anonymous"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-13132274-5"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE6LKTMJRB"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-13132274-5');
-</script><!--
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-ZE6LKTMJRB', { 'anonymize_ip': false });
+}
+</script>
+<!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
-
   
 </head>
-
-<body dir=>
+<body dir="ltr">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
-      
+      <div class="book-menu-content">
+        
   <nav>
 <h2 class="book-brand">
-  <a href="/csdream"><span>資夢</span>
+  <a class="flex align-center" href="/csdream/"><span>資夢</span>
   </a>
 </h2>
 
@@ -61,6 +64,7 @@ https://github.com/alex-shpak/hugo-book
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+
 
 
 
@@ -143,10 +147,11 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
 
 
  
+      </div>
     </aside>
 
     <div class="book-page">
@@ -170,7 +175,8 @@ https://github.com/alex-shpak/hugo-book
   
   <aside class="hidden clearfix">
     
-  <nav id="TableOfContents">
+  
+<nav id="TableOfContents">
   <ul>
     <li><a href="#前言">前言</a></li>
     <li><a href="#學習資源">學習資源</a></li>
@@ -180,6 +186,7 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#相關連結">相關連結</a></li>
   </ul>
 </nav>
+
 
 
   </aside>
@@ -256,6 +263,11 @@ https://github.com/alex-shpak/hugo-book
 
 </div>
 
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
  
         
       </footer>
@@ -273,8 +285,10 @@ https://github.com/alex-shpak/hugo-book
 
     
     <aside class="book-toc">
-      
-  <nav id="TableOfContents">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
   <ul>
     <li><a href="#前言">前言</a></li>
     <li><a href="#學習資源">學習資源</a></li>
@@ -285,14 +299,15 @@ https://github.com/alex-shpak/hugo-book
   </ul>
 </nav>
 
+
  
+      </div>
     </aside>
     
   </main>
 
   
 </body>
-
 </html>
 
 
