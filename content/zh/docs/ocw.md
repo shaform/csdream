@@ -139,3 +139,4 @@ aliases:
 *   [免出國、零學費，國內外知名大學線上課程大搜集](http://www.techbang.com.tw/posts/6394-moves-the-use-of-live-online-courses-open-dissemination-of-knowledge-into-new-areas-meng-continue)
 *   [国外名校开放式课程](http://blog.csdn.net/yxzhangustc/article/details/4017949)
 *   [Khan  Academy](http://khan-academy.appspot.com/)
+*   [NCTU CS Course](https://hackmd.io/@calee/ByOm-sFue?type=view)
