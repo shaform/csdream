@@ -36,6 +36,8 @@ aliases:
     *   [Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008)
     *   [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm)
 *   線性代數
+    *  [Linear Algebra](http://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
+    *  [線性代數(一)](https://www.youtube.com/watch?v=AfY1ak89fwU&list=PLj6E8qlqmkFtjxknKFtdxc1_SxNBXgpbo)
 *   物件導向程式設計
     *   [Introduction to C Memory Management and C++ Object-Oriented Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/)
 *   計算機科學概論
@@ -47,6 +49,7 @@ aliases:
 *   資料結構
     *   [Data Structures](http://webcast.berkeley.edu/playlist#c,d,Computer_Science,4BBB74C7D2A1049C)
     *   [Data Structures](http://academicearth.org/computer-science/)
+    *   [資料結構](https://www.youtube.com/watch?v=b8wr9AUPDMM&list=PLs81hTyfCaoXSa8NVmVy7IZVzJLpNhglk)
 *   數位電路設計
     *   [數位電路設計](http://ocw.nctu.edu.tw/course_detail.php?bgid=9&amp;gid=0&amp;nid=170)
     *   [Digital Circuit Design](http://www.youtube.com/watch?v=esAE1WLAubM)
@@ -74,8 +77,8 @@ aliases:
     *   [Automata, Computability, and Complexity](http://dspace.mit.edu/handle/1721.1/68649)
 *   作業系統概論
     *   [作業系統](http://ocw.nctu.edu.tw/course_detail.php?bgid=9&amp;gid=0&amp;nid=235)
-    *   [Operating Systems and System Programming
-](http://webcast.berkeley.edu/playlist#c,d,Computer_Science,3A5075EC94726781)
+    *   [Operating Systems and System Programming](http://webcast.berkeley.edu/playlist#c,d,Computer_Science,3A5075EC94726781)
+    *   [周志遠作業系統](https://www.youtube.com/watch?v=7EOttqasc5U&list=PL9jciz8qz_zyO55qECi2PD3k6lgxluYEV)
 *   計算機組織
     *   [計算機組織](http://ocw.nctu.edu.tw/course_detail.php?bgid=9&amp;gid=0&amp;nid=274)
     *   [計算機架構](http://ocw.nctu.edu.tw/course_detail.php?bgid=9&amp;gid=0&amp;nid=238)
@@ -86,6 +89,7 @@ aliases:
     *   [機器學習基石](https://www.coursera.org/course/ntumlone)
     *   [Machine Learning](https://www.coursera.org/course/ml)
     *   [Machine Learning](https://www.coursera.org/course/machlearning)
+    *   [李宏毅 機器學習](https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php)
 *   密碼學概論
 *   微處理機系統實驗
 *   編譯器設計概論
